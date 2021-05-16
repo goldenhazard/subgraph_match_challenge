@@ -1,5 +1,0 @@
-/home/vagrant/Algo/subgraph_match_challenge/build/CMakeFiles/rebuild_cache.dir
-/home/vagrant/Algo/subgraph_match_challenge/build/CMakeFiles/edit_cache.dir
-/home/vagrant/Algo/subgraph_match_challenge/build/main/CMakeFiles/rebuild_cache.dir
-/home/vagrant/Algo/subgraph_match_challenge/build/main/CMakeFiles/edit_cache.dir
-/home/vagrant/Algo/subgraph_match_challenge/build/main/CMakeFiles/program.dir
