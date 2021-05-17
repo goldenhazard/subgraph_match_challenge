@@ -13,6 +13,8 @@ class Graph {
   explicit Graph(const std::string& filename, bool is_query = false);
   ~Graph();
 
+  friend std::ostream& operator<<(std::ostream& os, Graph& graph);
+
   inline int32_t GetGraphID() const;
 
   inline size_t GetNumVertices() const;
@@ -36,6 +38,14 @@ class Graph {
   inline bool IsNeighbor(Vertex u, Vertex v) const;
 
  private:
+ /*
+ label_frequency_
+ start_offset_
+ start_offset_by_label_
+ label_
+ adj_array_
+ max_label_
+ */
   int32_t graph_id_;
 
   size_t num_vertices_;
@@ -193,5 +203,4 @@ inline bool Graph::IsNeighbor(Vertex u, Vertex v) const {
   return offset >= GetNeighborStartOffset(u, GetLabel(v)) &&
          offset < GetNeighborEndOffset(u, GetLabel(v)) && *it == v;
 }
-
 #endif  // GRAPH_H_
