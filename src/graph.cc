@@ -55,6 +55,7 @@ Graph::Graph(const std::string &filename, bool is_query) {
   if (!is_query) {
     TransferLabel(filename);
   }
+  // Adjacency List
   std::vector<std::vector<Vertex>> adj_list;
 
   // Load Graph
@@ -78,6 +79,9 @@ Graph::Graph(const std::string &filename, bool is_query) {
   num_edges_ = 0;
 
   // preprocessing
+  // label : len(vertexes) array
+  // label_set : set of labels
+  // adj_list
   while (fin >> type) {
     if (type == 'v') {
       Vertex id;
@@ -115,11 +119,13 @@ Graph::Graph(const std::string &filename, bool is_query) {
 
   start_offset_by_label_.resize(num_vertices_ * (max_label_ + 1));
 
+  // start_offset : adjacency array start index
   start_offset_[0] = 0;
   for (size_t i = 0; i < adj_list.size(); ++i) {
     start_offset_[i + 1] = start_offset_[i] + adj_list[i].size();
   }
 
+  // iterte by all vertices
   for (size_t i = 0; i < adj_list.size(); ++i) {
     label_frequency_[GetLabel(i)] += 1;
 
@@ -165,3 +171,19 @@ Graph::Graph(const std::string &filename, bool is_query) {
 }
 
 Graph::~Graph() {}
+
+std::ostream& operator<<(std::ostream& os, Graph& graph){
+  os << "Graph Summary" << std::endl;
+  os << "======================" << std::endl;
+  os << graph.num_vertices_ << " vertices," << graph.num_edges_ << " edges," << graph.num_labels_ << " labels" << std::endl;
+  os << "Frequency" << std::endl;
+  for(auto frequency : graph.label_frequency_) os << frequency << " ";
+  os << std::endl;
+  os << "offset" << std::endl;
+  for(auto offset : graph.start_offset_) os << offset << " ";
+  os << std::endl;
+  os << "Label" << std::endl;
+  for(Label label: graph.label_) os << label << " ";
+  os << std::endl;
+  return os;
+}

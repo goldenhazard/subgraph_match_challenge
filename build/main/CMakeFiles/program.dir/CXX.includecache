@@ -54,3 +54,11 @@ graph.h
 backtrack.h
 /home/vagrant/algorithm/subgraph_match_challenge/src/backtrack.h
 
+/home/vagrant/algorithm/subgraph_match_challenge/src/candidate_set.cc
+candidate_set.h
+/home/vagrant/algorithm/subgraph_match_challenge/src/candidate_set.h
+
+/home/vagrant/algorithm/subgraph_match_challenge/src/graph.cc
+graph.h
+/home/vagrant/algorithm/subgraph_match_challenge/src/graph.h
+

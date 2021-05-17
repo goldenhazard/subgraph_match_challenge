@@ -27,5 +27,7 @@ int main(int argc, char* argv[]) {
 
   backtrack.PrintAllMatches(data, query, candidate_set);
 
+  std::cout << data << std::endl;
+
   return EXIT_SUCCESS;
 }
