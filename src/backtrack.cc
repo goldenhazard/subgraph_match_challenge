@@ -19,25 +19,23 @@ void Backtrack::PrintAllMatches(const Graph &data, const Graph &query,
 bool Backtrack::isConnected(size_t level, const Graph &data, 
                             const Graph &query) {
   // If visited vertex isn't connected while query is connected, return false
-  for(size_t i=0;i<level;i++) {
-    if(query.IsNeighbor(i,level-1)) {
-      std::cout << "[DEBUG] u_" << i+1 << " and u_" <<
-          level << " has to be connected -> ";
-      if(!data.IsNeighbor(path[i],path[level-1])) {
-        std::cout << "v_" << path[i]+1 << " and v_" <<
-            path[level-1]+1 << " is not connected -> return FALSE" <<
-            std::endl;
-        return false;
-      } else {
-        std::cout << "v_" << path[i]+1 << " and v_" <<
-            path[level-1]+1 << " is connected -> CONTINUE" << 
-            std::endl;
-      }
-    } else {
-      std::cout << "[DEBUG] Don't care whether u_" << i+1 << 
-          " and u_" << level << " is connected -> CONTINUE" <<
-          std::endl;
+  if(level == 0) return true;
+  for(size_t i=0;i<level-1;i++) {
+    if(path[i] == path[level-1]) {
+      //std::cout << "v_" << path[i]+1 << " and v_" << path[level-1]+1 << " is same vertex -> return FALSE" << std::endl;
+      return false;
     }
+    if(query.IsNeighbor(i,level-1)) {
+      //std::cout << "[DEBUG] u_" << i+1 << " and u_" << level << " has to be connected -> ";
+      if(!data.IsNeighbor(path[i],path[level-1])) {
+        //std::cout << "v_" << path[i]+1 << " and v_" << path[level-1]+1 << " is not connected -> return FALSE" << std::endl;
+        return false;
+      } /*else {
+        std::cout << "v_" << path[i]+1 << " and v_" << path[level-1]+1 << " is connected -> CONTINUE" << std::endl;
+      }*/
+    } /*else {
+      std::cout << "[DEBUG] Don't care whether u_" << i+1 << " and u_" << level << " is connected -> CONTINUE" << std::endl;
+    }*/
   }
   return true;
 }
@@ -45,9 +43,9 @@ bool Backtrack::isConnected(size_t level, const Graph &data,
 void Backtrack::query(size_t level, const Graph &data, 
                       const Graph &query, const CandidateSet &cs) {
   
-  std::cout << "\n==================== Current Level : " << level <<
+  /*std::cout << "\n==================== Current Level : " << level <<
               " ====================\n[PATH] ";
-  Backtrack::printPath(level);
+  Backtrack::printPath(level);*/
 
   // Check if current vertex is connected with previous visited vertex
   if(!isConnected(level, data, query)) {
