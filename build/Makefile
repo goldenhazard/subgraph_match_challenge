@@ -123,6 +123,19 @@ program/fast:
 	$(MAKE) -f main/CMakeFiles/program.dir/build.make main/CMakeFiles/program.dir/build
 .PHONY : program/fast
 
+#=============================================================================
+# Target rules for targets named backtrack_program
+
+# Build rule for target.
+backtrack_program: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 backtrack_program
+.PHONY : backtrack_program
+
+# fast build rule for target.
+backtrack_program/fast:
+	$(MAKE) -f backtrack_tutorial/CMakeFiles/backtrack_program.dir/build.make backtrack_tutorial/CMakeFiles/backtrack_program.dir/build
+.PHONY : backtrack_program/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +145,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... program"
+	@echo "... backtrack_program"
 .PHONY : help
 
 

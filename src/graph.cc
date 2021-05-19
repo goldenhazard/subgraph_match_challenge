@@ -8,6 +8,13 @@
 namespace {
 std::vector<Label> transferred_label;
 void TransferLabel(const std::string &filename) {
+  /*
+  Constructs transferred_label from label_set
+  (Label jump solved(?))
+  e.g)
+    label set = {0,1,2,5,8}
+    transferred_label = [0|1|2|0|0|3|0|0|4]
+  */
   std::ifstream fin(filename);
 
   if (!fin.is_open()) {
@@ -52,10 +59,12 @@ void TransferLabel(const std::string &filename) {
 }  // namespace
 
 Graph::Graph(const std::string &filename, bool is_query) {
+  // If data graph, transfer label
   if (!is_query) {
     TransferLabel(filename);
   }
   // Adjacency List
+  // <<2,3,4,5,6>, <7,8>, ... >
   std::vector<std::vector<Vertex>> adj_list;
 
   // Load Graph
@@ -168,6 +177,12 @@ Graph::Graph(const std::string &filename, bool is_query) {
     std::copy(adj_list[i].begin(), adj_list[i].end(),
               adj_array_.begin() + start_offset_[i]);
   }
+}
+
+std::vector<Vertex>& Graph::GetNeighborVertexes(std::vector<Vertex>& neighbors, Vertex v) const{
+  for(auto idx = GetNeighborStartOffset(v); idx < GetNeighborEndOffset(v); idx++)
+    neighbors.push_back(adj_array_[idx]);
+  return neighbors;
 }
 
 Graph::~Graph() {}
