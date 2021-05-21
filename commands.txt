@@ -1,0 +1,22 @@
+./main/program ../data/homework_data.igraph ../query/homework.igraph ../candidate_set/homework.cs
+
+
+TODO)
+
+1. Implement "bool is_embedding(partial_embedding, data)" => Hard
+
+2. Implement time_out function => thread  => Easy
+
+3. Optimize the reference
+=> unique_ptr can be used for memory optimization
+
+4. Now, finding extendable vertices and constructing cmu is simultaneously handled.
+=> for sake of efficiency
+=> trade-off
+
+5. Issues
+Find Extendable vertice time complexity
+Find Sorting criteria
+
+
+6. Write in text not console => Easy 
