@@ -35,6 +35,7 @@ class Graph {
   inline Label GetLabel(Vertex v) const;
   inline Vertex GetNeighbor(size_t offset) const;
   std::vector<Vertex>& GetNeighborVertexes(std::vector<Vertex>& neighbors, Vertex v) const;
+  std::set<Vertex>& GetNeighborSets(std::set<Vertex>& neighbors, Vertex v) const;
 
   inline bool IsNeighbor(Vertex u, Vertex v) const;
 

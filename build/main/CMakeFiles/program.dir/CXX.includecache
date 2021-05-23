@@ -50,7 +50,7 @@ common.h
 /home/vagrant/algorithm/subgraph_match_challenge/main/common.h
 graph.h
 /home/vagrant/algorithm/subgraph_match_challenge/main/graph.h
-
+-
 /home/vagrant/algorithm/subgraph_match_challenge/src/backtrack.cc
 =======
 >>>>>>> 821653e0ef7bae47e482360f2162761d89c6387f
@@ -62,4 +62,9 @@ common.h
 /home/vagrant/algorithm/subgraph_match_challenge/main/common.h
 graph.h
 /home/vagrant/algorithm/subgraph_match_challenge/main/graph.h
+-
+
+/home/vagrant/algorithm/subgraph_match_challenge/src/backtrack.cc
+backtrack.h
+/home/vagrant/algorithm/subgraph_match_challenge/src/backtrack.h
 
