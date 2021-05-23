@@ -41,6 +41,7 @@ CandidateSet::CandidateSet(const std::string& filename) {
 }
 
 std::set<Vertex>& CandidateSet::GetCandidateSet(std::set<Vertex>& candidate_set, Vertex u) const{
+  // O(c_M(u))
   for(auto vertex : cs_[u])
     candidate_set.insert(vertex);
   return candidate_set;

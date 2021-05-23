@@ -185,6 +185,12 @@ std::vector<Vertex>& Graph::GetNeighborVertexes(std::vector<Vertex>& neighbors, 
   return neighbors;
 }
 
+std::set<Vertex>& Graph::GetNeighborSets(std::set<Vertex>& neighbors, Vertex v) const{
+  for(auto idx = GetNeighborStartOffset(v); idx < GetNeighborEndOffset(v); idx++)
+    neighbors.insert(adj_array_[idx]);
+  return neighbors;
+}
+
 Graph::~Graph() {}
 
 std::ostream& operator<<(std::ostream& os, Graph& graph){

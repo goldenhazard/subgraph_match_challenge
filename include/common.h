@@ -16,6 +16,8 @@
 #include <utility>
 #include <vector>
 
+#include "math.h"
+
 using Vertex = int32_t;
 using Label = int32_t;
 using VertexPair = std::pair<Vertex, Vertex>;

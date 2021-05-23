@@ -35,6 +35,8 @@ utility
 -
 vector
 -
+math.h
+../include/math.h
 
 ../include/graph.h
 common.h
