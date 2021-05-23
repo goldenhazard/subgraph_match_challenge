@@ -147,7 +147,6 @@ std::vector<Cmu>& Backtrack::BuildCmuHeap(const Graph& data, const Graph& query,
   }
 
   //if(!cmu_heap.empty()) HeapSummary(cmu_heap);
-
   return cmu_heap;
 }
 
