@@ -22,7 +22,7 @@ class Backtrack {
     void DoBacktrack(const Graph& graph, const Graph& query, const CandidateSet& cs,
                       std::vector<VertexPair>& partial_embedding);
     
-    Vertex FindRoot(const Graph& query);
+    Vertex FindRoot(const Graph& query, const CandidateSet& cs);
     
     Cmu& FindNextVertex(const Graph& data, const Graph& query, const CandidateSet& cs,
                       std::vector<VertexPair>& partial_embedding, Cmu& cmu_next);

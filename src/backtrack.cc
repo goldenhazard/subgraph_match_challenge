@@ -35,20 +35,20 @@ void Backtrack::PrintAllMatches(const Graph &data, const Graph &query,
 void Backtrack::PrintPath(std::vector<VertexPair> partial_embedding){
     // Sort according to the pair.first
     embedding_number += 1;
-    //std::sort(partial_embedding.begin(), partial_embedding.end(), VertexCompare);
+    std::sort(partial_embedding.begin(), partial_embedding.end(), VertexCompare);
     std::cout << "[" << embedding_number << "]";
     std::cout << "a";
     for(auto pair: partial_embedding){
         std::cout << " ";
-        std::cout << "(" << pair.first << ",";
+        //std::cout << "(" << pair.first << ",";
         std::cout << pair.second;
-        std::cout << ")";
+        //std::cout << ")";
     }
     std::cout << std::endl;
 }
 
 void PrintEmbedding(std::vector<VertexPair> partial_embedding){
-    std::cout << "[DEBUG] current embedding : ";
+    std::cout << "[PATH] level : " << partial_embedding.size() << " embedding : ";
     std::cout << "a";
     for(auto pair: partial_embedding){
         std::cout << " ";
@@ -70,14 +70,14 @@ void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const Candida
     }
 
     else if(partial_embedding.empty()){
-        Vertex root = FindRoot(query);
+        Vertex root = FindRoot(query, cs);
         for(size_t idx = 0; idx < cs.GetCandidateSize(root); idx++){
-        Vertex next_vertex = cs.GetCandidate(root, idx);
-        partial_embedding.push_back(std::make_pair(root, next_vertex));
-        visited_v[next_vertex] = true; visited_u[root] = true;
-        DoBacktrack(data, query, cs, partial_embedding);
-        partial_embedding.pop_back();
-        visited_v[next_vertex] = false; visited_u[root] = false;
+            Vertex next_vertex = cs.GetCandidate(root, idx);
+            partial_embedding.push_back(std::make_pair(root, next_vertex));
+            visited_v[next_vertex] = true; visited_u[root] = true;
+            DoBacktrack(data, query, cs, partial_embedding);
+            partial_embedding.pop_back();
+            visited_v[next_vertex] = false; visited_u[root] = false;
         }
     }
 
@@ -94,19 +94,29 @@ void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const Candida
             partial_embedding.pop_back();
             visited_v[v_next] = false; visited_u[u_next] = false;
         }
+        /*Vertex root = partial_embedding.back().first + 1;
+        for(size_t idx = 0; idx < cs.GetCandidateSize(root); idx++){
+            Vertex next_vertex = cs.GetCandidate(root, idx);
+            partial_embedding.push_back(std::make_pair(root, next_vertex));
+            visited_v[next_vertex] = true; visited_u[root] = true;
+            DoBacktrack(data, query, cs, partial_embedding);
+            partial_embedding.pop_back();
+            visited_v[next_vertex] = false; visited_u[root] = false;
+        }*/
     }
 }
 
-Vertex Backtrack::FindRoot(const Graph& query) {
+Vertex Backtrack::FindRoot(const Graph& query, const CandidateSet& cs) {
     Vertex root = 0;
-    size_t min_neighbors = query.GetDegree(0);
+    //size_t min_neighbors = query.GetDegree(0);
+    size_t min_neighbors = cs.GetCandidateSize(0);
     for(size_t v=1;v<query.GetNumVertices();v++) {
-        if(query.GetDegree(v) < min_neighbors) {
+        if(cs.GetCandidateSize(v) < min_neighbors) {
             root = v;
-            min_neighbors = query.GetDegree(v);
+            min_neighbors = cs.GetCandidateSize(v);
         }
     }
-    return root;
+    return Vertex(root);
 }
 
 Cmu& Backtrack::FindNextVertex(const Graph& data, const Graph& query, const CandidateSet& cs, std::vector<VertexPair>& partial_embedding, Cmu& cmu_next) {
@@ -117,7 +127,6 @@ Cmu& Backtrack::FindNextVertex(const Graph& data, const Graph& query, const Cand
     Vertex embedded_v;
 
     size_t theta = size_t(query.GetNumVertices() - log2(query.GetNumVertices()));
-    //size_t theta = query.GetNumVertices();
 
     // q means query.size() && p means partial_embedding.size()
     // If p < q - log2(q) find neighbor by adding set
@@ -141,26 +150,47 @@ Cmu& Backtrack::FindNextVertex(const Graph& data, const Graph& query, const Cand
         }
     }
 
+    /*std::cout << "[Neighbors]";
+    for(Vertex u : neighbors) std::cout << " " << u;
+    std::cout << std::endl;*/
+
     for(Vertex u : neighbors) {
         if(visited_u[u]) continue;
         cmu.clear();
         cmu = cs.GetCandidateSet(cmu, u);
+        /*std::cout << "[b_B(k)] " << u << " " << cmu.size();
+        for(Vertex v : cmu) std::cout << " " << v;
+        std::cout << std::endl;*/
         for(VertexPair p : partial_embedding) {
-            //if(p.first <= u) continue;
+            not_connected.clear();
             if(!query.IsNeighbor(p.first, u)) continue;
             if(cmu.size() == 0) break;
             embedded_v = p.second;
             for(Vertex curr_v : cmu) {
                 if(visited_v[curr_v] || !data.IsNeighbor(embedded_v, curr_v)) not_connected.push_back(curr_v);
+                /*if(visited_v[curr_v]) {
+                    std::cout << "[NOT_CONNECTED] " << curr_v << " is visited" << std::endl;
+                }
+                if(!data.IsNeighbor(embedded_v, curr_v)) {
+                    std::cout << "[NOT_CONNECTED] " << embedded_v << "," << curr_v << " isn't connected while "
+                                << p.first << "," << u << " is connected" << std::endl;
+                }*/
             }
             for(Vertex v: not_connected) cmu.erase(v);
         }
 
         // Find possible u that has minimum |C_m(u)|
-        //std::cout << "[DEBUG] " << u << " " << cmu.size() << std::endl;
+        /*std::cout << "[c_M(u)] " << u << " " << cmu.size();
+        for(Vertex v : cmu) std::cout << " " << v;
+        std::cout << std::endl;*/
         if(!cmu.empty()) {
             if(cmu_next.second.size() == 0) {
                 cmu_next = std::make_pair(u,cmu);
+            }
+            if(cmu.size() == 1) {
+                cmu_next.first = u;
+                cmu_next.second = cmu;
+                break;
             }
             // CHANGE HERE TO CHANGE CRITERION!!!!!!!!!!
             if(cmu.size() < cmu_next.second.size()) {
@@ -169,52 +199,6 @@ Cmu& Backtrack::FindNextVertex(const Graph& data, const Graph& query, const Cand
             }
         }
     }
-    
-    // Using rooted DAG
-    /*std::set<Vertex> cmu; // Real c_M(u)
-    std::vector<Vertex> neighbors;
-    std::vector<Vertex> not_connected;
-    Vertex v_parent;
-
-    // All possible choices
-    for(Vertex u = 0; u < int(query.GetNumVertices()); u++){
-        cmu.clear();
-        neighbors.clear();
-        
-        if(visited_u[u]) continue; // skip if already_visited, u7
-        cmu = cs.GetCandidateSet(cmu, u); // cmu of u7 in current state.
-
-        // Checks if all parents are in M.
-        neighbors = query.GetNeighborVertexes(neighbors, u);
-        // Candidate parents
-        // ex) [u3, u6, u9]
-        // Checks if cmu is alive, parents are in M.
-        for(Vertex w : neighbors){
-            if(cmu.size() == 0) break;
-            // Only parents
-            if(w < u){
-                not_connected.clear();
-                if(!visited_u[w]) cmu.clear();
-                v_parent = FindVByU(partial_embedding, w);
-                for(Vertex v : cmu){
-                    if(visited_v[v] || !data.IsNeighbor(v_parent, v)) not_connected.push_back(v);
-                }
-                for(Vertex v: not_connected) cmu.erase(v);
-            }
-        }
-
-        // Find possible u that has minimum |C_m(u)|
-        //std::cout << "[DEBUG] " << u << " " << cmu.size() << std::endl;
-        if(!cmu.empty()) {
-            if(cmu_next.second.size() == 0) {
-                cmu_next = std::make_pair(u,cmu);
-            }
-            if(cmu.size() < cmu_next.second.size()) {
-                cmu_next.first = u;
-                cmu_next.second = cmu;
-            }
-        }
-    }*/
 
     return cmu_next;
 }
@@ -227,15 +211,15 @@ void Backtrack::Check(const Graph& data, const Graph& query, const CandidateSet&
             u2 = partial_embedding[j].first;
             v1 = partial_embedding[i].second;
             v2 = partial_embedding[j].second;
-            if(query.IsNeighbor(u1, u2) && !data.IsNeighbor(v1, v2)) {
-                std::cout << "u[" << u1 << "],u[" << u2 << "]=" << query.IsNeighbor(u1, u2)
-                    << " v[" << v1 << "],v[" << v2 << "]=" << data.IsNeighbor(v1, v2) << std::endl;
-                std::cout << "[FALSE]";
+            if((query.IsNeighbor(u1, u2) && !data.IsNeighbor(v1, v2)) || (v1 == v2)) {
+                /*std::cout << "u[" << u1 << "],u[" << u2 << "]=" << query.IsNeighbor(u1, u2)
+                    << " v[" << v1 << "],v[" << v2 << "]=" << data.IsNeighbor(v1, v2) << std::endl;*/
+                std::cout << "[F] ";
                 return;
             }
         }
     }
-    std::cout << "[TRUE]";
+    std::cout << "[T] ";
 }
 
 Vertex Backtrack::FindVByU(std::vector<VertexPair>& partial_embedding, Vertex u){
@@ -251,50 +235,3 @@ Vertex Backtrack::FindUByV(std::vector<VertexPair>& partial_embedding, Vertex v)
     }
     return -1;
 }
-
-/*void Backtrack::pushU(const Graph& query, Vertex u) {
-    std::vector<Vertex> neighbors;
-    neighbors = query.GetNeighborVertexes(neighbors, u);
-    for(Vertex w : neighbors) {
-        if(!visited_u[w]) extendable_u[w] = true;
-    }
-    extendable_u[u] = false;
-}
-
-void Backtrack::popU(const Graph& query, Vertex u) {
-    std::vector<Vertex> neighbors;
-    neighbors = query.GetNeighborVertexes(neighbors, u);
-    for(Vertex w : neighbors) {
-        if(!visited_u[w]) extendable_u[w] = false;
-    }
-    extendable_u[u] = true;
-}
-
-void Backtrack::pushUV(const Graph& data, const Graph& query, const CandidateSet& cs, std::vector<VertexPair>& partial_embedding, Vertex u, Vertex v) {
-    std::set<Vertex> cmu;
-    std::vector<Vertex> neighbors;
-    neighbors = query.GetNeighborVertexes(neighbors, u);
-    for(Vertex w : neighbors) {
-        if(!visited_u[w]) {
-            extendable_u[w] = false;
-            cmu.clear();
-            cmu = cs.GetCandidateSet(cmu, w);
-            for(Vertex t : cmu) {
-                for(VertexPair p : partial_embedding) {
-                    if(!query.IsNeighbor(p.first, w) || data.IsNeighbor(p.second, t)) extendable_v[w].push_back(t);
-                }
-            }
-        }
-    }
-    extendable_u[u] = false;
-}
-
-void Backtrack::popUV(const Graph& data, const Graph& query, const CandidateSet& cs, std::vector<VertexPair>& partial_embedding, Vertex u, Vertex v) {
-
-}*/
-
-
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
