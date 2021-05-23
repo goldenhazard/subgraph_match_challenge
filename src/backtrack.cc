@@ -4,6 +4,7 @@
  */
 
 #include "backtrack.h"
+#include "math.h"
 
 using VertexPair = std::pair<Vertex, Vertex>;
 using Cmu = std::pair<Vertex, std::set<Vertex>>;
@@ -61,20 +62,22 @@ void PrintEmbedding(std::vector<VertexPair> partial_embedding){
 void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const CandidateSet& cs, 
                             std::vector<VertexPair>& partial_embedding){
     //PrintEmbedding(partial_embedding);
+    if(embedding_number >= 100000) return;
     if(partial_embedding.size() == query.GetNumVertices()){
-        Check(data, query, cs, partial_embedding);
+        //Check(data, query, cs, partial_embedding);
         PrintPath(partial_embedding);
         return;
     }
 
     else if(partial_embedding.empty()){
-        for(size_t idx = 0; idx < cs.GetCandidateSize(0); idx++){
-        Vertex next_vertex = cs.GetCandidate(0, idx);
-        partial_embedding.push_back(std::make_pair(0, next_vertex));
-        visited_v[next_vertex] = true; visited_u[0] = true;
+        Vertex root = FindRoot(query);
+        for(size_t idx = 0; idx < cs.GetCandidateSize(root); idx++){
+        Vertex next_vertex = cs.GetCandidate(root, idx);
+        partial_embedding.push_back(std::make_pair(root, next_vertex));
+        visited_v[next_vertex] = true; visited_u[root] = true;
         DoBacktrack(data, query, cs, partial_embedding);
         partial_embedding.pop_back();
-        visited_v[next_vertex] = false; visited_u[0] = false;
+        visited_v[next_vertex] = false; visited_u[root] = false;
         }
     }
 
@@ -94,6 +97,18 @@ void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const Candida
     }
 }
 
+Vertex Backtrack::FindRoot(const Graph& query) {
+    Vertex root = 0;
+    size_t min_neighbors = query.GetDegree(0);
+    for(size_t v=1;v<query.GetNumVertices();v++) {
+        if(query.GetDegree(v) < min_neighbors) {
+            root = v;
+            min_neighbors = query.GetDegree(v);
+        }
+    }
+    return root;
+}
+
 Cmu& Backtrack::FindNextVertex(const Graph& data, const Graph& query, const CandidateSet& cs, std::vector<VertexPair>& partial_embedding, Cmu& cmu_next) {
     // Not using DAG
     std::set<Vertex> cmu;
@@ -101,9 +116,31 @@ Cmu& Backtrack::FindNextVertex(const Graph& data, const Graph& query, const Cand
     std::vector<Vertex> not_connected;
     Vertex embedded_v;
 
-    for(VertexPair p : partial_embedding) {
-        neighbors = query.GetNeighborSets(neighbors, p.first);
+    size_t theta = size_t(query.GetNumVertices() - log2(query.GetNumVertices()));
+    //size_t theta = query.GetNumVertices();
+
+    // q means query.size() && p means partial_embedding.size()
+    // If p < q - log2(q) find neighbor by adding set
+    // time complexity : q log(q)
+    if(partial_embedding.size() <= theta) {
+        for(VertexPair p : partial_embedding) {
+            neighbors = query.GetNeighborSets(neighbors, p.first);
+        }
     }
+    // If p > q - log2(q) finding neighbor by comparing every member in partial_embedding
+    // time complexity : (q-p) * p
+    else {
+        for(size_t u=0;u<query.GetNumVertices();u++) {
+            if(visited_u[u]) continue;
+            for(auto p : partial_embedding) {
+                if(query.IsNeighbor(p.first, u)) {
+                    neighbors.insert(u);
+                    break;
+                }
+            }
+        }
+    }
+
     for(Vertex u : neighbors) {
         if(visited_u[u]) continue;
         cmu.clear();
@@ -125,6 +162,7 @@ Cmu& Backtrack::FindNextVertex(const Graph& data, const Graph& query, const Cand
             if(cmu_next.second.size() == 0) {
                 cmu_next = std::make_pair(u,cmu);
             }
+            // CHANGE HERE TO CHANGE CRITERION!!!!!!!!!!
             if(cmu.size() < cmu_next.second.size()) {
                 cmu_next.first = u;
                 cmu_next.second = cmu;
