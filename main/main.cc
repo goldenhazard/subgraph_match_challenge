@@ -7,6 +7,7 @@
 #include "candidate_set.h"
 #include "common.h"
 #include "graph.h"
+#include <ctime>
 
 int main(int argc, char* argv[]) {
   if (argc < 4) {
@@ -24,10 +25,13 @@ int main(int argc, char* argv[]) {
   CandidateSet candidate_set(candidate_set_file_name);
 
   Backtrack backtrack;
+  
+  //clock_t t_start = clock();
 
   backtrack.PrintAllMatches(data, query, candidate_set);
 
-  //std::cout << data << std::endl;
+  //clock_t t_finish = clock();
+  //std::cout << "Elapsed time: " << static_cast<double>(t_finish - t_start) / CLOCKS_PER_SEC << " sec" << std::endl;
 
   return EXIT_SUCCESS;
 }

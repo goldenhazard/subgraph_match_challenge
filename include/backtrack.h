@@ -22,6 +22,8 @@ class Backtrack {
     void DoBacktrack(const Graph& graph, const Graph& query, const CandidateSet& cs,
                       std::vector<VertexPair>& partial_embedding);
     
+    Vertex FindRoot(const Graph& query);
+    
     Cmu& FindNextVertex(const Graph& data, const Graph& query, const CandidateSet& cs,
                       std::vector<VertexPair>& partial_embedding, Cmu& cmu_next);
 
@@ -45,6 +47,7 @@ class Backtrack {
     std::vector<bool> extendable_u;
     std::vector<std::vector<Vertex>> extendable_v;
     size_t embedding_number = 0;
+    size_t recursion_call = 0;
 };
 
 #endif  // BACKTRACK_H_
