@@ -25,8 +25,8 @@ void Backtrack::PrintAllMatches(const Graph &data, const Graph &query,
     // implement your code here.
     visited_u.resize(query.GetNumVertices());
     visited_v.resize(data.GetNumVertices());
-    extendable_u.resize(query.GetNumVertices());
-    extendable_v.resize(data.GetNumVertices());
+    // extendable_u.resize(query.GetNumVertices());
+    // extendable_v.resize(data.GetNumVertices());
 
     std::vector<VertexPair> matchedVertex;
     DoBacktrack(data, query, cs, matchedVertex);
@@ -34,7 +34,6 @@ void Backtrack::PrintAllMatches(const Graph &data, const Graph &query,
 
 void Backtrack::PrintPath(std::vector<VertexPair> partial_embedding){
     // Sort according to the pair.first
-    embedding_number += 1;
     std::sort(partial_embedding.begin(), partial_embedding.end(), VertexCompare);
     std::cout << "[" << embedding_number << "]";
     std::cout << "a";
@@ -62,10 +61,12 @@ void PrintEmbedding(std::vector<VertexPair> partial_embedding){
 void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const CandidateSet& cs, 
                             std::vector<VertexPair>& partial_embedding){
     //PrintEmbedding(partial_embedding);
+    recursion_call += 1;
     if(embedding_number >= 100000) return;
     if(partial_embedding.size() == query.GetNumVertices()){
         //Check(data, query, cs, partial_embedding);
-        PrintPath(partial_embedding);
+        embedding_number += 1;
+        //PrintPath(partial_embedding);
         return;
     }
 
@@ -234,4 +235,9 @@ Vertex Backtrack::FindUByV(std::vector<VertexPair>& partial_embedding, Vertex v)
         if(pair.second == v) return pair.first;
     }
     return -1;
+}
+
+std::pair<size_t, size_t> Backtrack::FinalSummary(){
+    // std::cout << "Embedding #: " << embedding_number << "Recursion call: " << recursion_call << std::endl;
+    return std::make_pair(embedding_number, recursion_call);
 }
