@@ -44,6 +44,7 @@ class Backtrack {
     std::vector<size_t> inssaPower;
     int query_size;
     size_t embedding_number = 0;
+    size_t recursion_call = 0;
 };
 
 #endif  // BACKTRACK_H_

@@ -33,7 +33,6 @@ void Backtrack::PrintAllMatches(const Graph &data, const Graph &query,
 
 void Backtrack::PrintPath(std::vector<VertexPair> partial_embedding){
     // Sort according to the pair.first
-    embedding_number += 1;
     std::sort(partial_embedding.begin(), partial_embedding.end(), VertexCompare);
     std::cout << "[" << embedding_number << "]";
     std::cout << "a";
@@ -64,7 +63,8 @@ void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const Candida
     //if(embedding_number >= 100000) return;
     if(partial_embedding.size() == query.GetNumVertices()){
         //Check(data, query, cs, partial_embedding);
-        PrintPath(partial_embedding);
+        embedding_number += 1;
+        //PrintPath(partial_embedding);
         return;
     }
 
