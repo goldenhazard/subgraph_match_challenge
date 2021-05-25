@@ -9,7 +9,7 @@
 #include "graph.h"
 #include <time.h>
 
-void test_all(){
+/*void test_all(){
   std::vector<std::string> data_file_names;
   data_file_names.push_back("lcc_hprd"); data_file_names.push_back("lcc_human"); data_file_names.push_back("lcc_yeast");
 
@@ -42,15 +42,15 @@ void test_all(){
       std::cout << "=======================================" << std::endl;
     }
   }
-}
+}*/
 
 
 int main(int argc, char* argv[]) {
   std::string mode = argv[1];
-  if(mode == "test_all"){
+  /*if(mode == "test_all"){
     test_all();
     return EXIT_SUCCESS;
-  }
+  }*/
 
   if (argc < 4) {
     std::cerr << "Usage: ./program <data graph file> <query graph file> "
@@ -69,12 +69,12 @@ int main(int argc, char* argv[]) {
 
   Backtrack backtrack;
   
-  //clock_t t_start = clock();
+  clock_t t_start = clock();
 
   backtrack.PrintAllMatches(data, query, candidate_set);
 
-  //clock_t t_finish = clock();
-  //std::cout << "Elapsed time: " << static_cast<double>(t_finish - t_start) / CLOCKS_PER_SEC << " sec" << std::endl;
+  clock_t t_finish = clock();
+  std::cout << "Elapsed time: " << static_cast<double>(t_finish - t_start) / CLOCKS_PER_SEC << " sec" << std::endl;
 
   return EXIT_SUCCESS;
 }
