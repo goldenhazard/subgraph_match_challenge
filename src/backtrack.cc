@@ -18,6 +18,7 @@ bool VertexCompare(VertexPair& a, VertexPair& b){
 Backtrack::Backtrack() {}
 Backtrack::~Backtrack() {}
 
+// Print Function
 void Backtrack::PrintAllMatches(const Graph &data, const Graph &query,
                                 const CandidateSet &cs) {
     std::cout << "t " << query.GetNumVertices() << "\n";
@@ -60,28 +61,35 @@ void PrintEmbedding(std::vector<VertexPair> partial_embedding){
 
 void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const CandidateSet& cs, 
                             std::vector<VertexPair>& partial_embedding){
-    //PrintEmbedding(partial_embedding);
+    PrintEmbedding(partial_embedding);
     recursion_call += 1;
     if(embedding_number >= 100000) return;
+
+    // Leaf node
     if(partial_embedding.size() == query.GetNumVertices()){
         //Check(data, query, cs, partial_embedding);
         embedding_number += 1;
-        //PrintPath(partial_embedding);
+        PrintPath(partial_embedding);
         return;
     }
 
+    // Root node
     else if(partial_embedding.empty()){
         Vertex root = FindRoot(query, cs);
         for(size_t idx = 0; idx < cs.GetCandidateSize(root); idx++){
             Vertex next_vertex = cs.GetCandidate(root, idx);
+            
             partial_embedding.push_back(std::make_pair(root, next_vertex));
             visited_v[next_vertex] = true; visited_u[root] = true;
+            
             DoBacktrack(data, query, cs, partial_embedding);
+            
             partial_embedding.pop_back();
             visited_v[next_vertex] = false; visited_u[root] = false;
         }
     }
 
+    // Internal node
     else{
         Cmu cmu_next;
         cmu_next = FindNextVertex(data, query, cs, partial_embedding, cmu_next);
@@ -120,6 +128,11 @@ Vertex Backtrack::FindRoot(const Graph& query, const CandidateSet& cs) {
     return Vertex(root);
 }
 
+
+
+
+
+
 Cmu& Backtrack::FindNextVertex(const Graph& data, const Graph& query, const CandidateSet& cs, std::vector<VertexPair>& partial_embedding, Cmu& cmu_next) {
     // Not using DAG
     std::set<Vertex> cmu;
@@ -150,10 +163,6 @@ Cmu& Backtrack::FindNextVertex(const Graph& data, const Graph& query, const Cand
             }
         }
     }
-
-    /*std::cout << "[Neighbors]";
-    for(Vertex u : neighbors) std::cout << " " << u;
-    std::cout << std::endl;*/
 
     for(Vertex u : neighbors) {
         if(visited_u[u]) continue;
@@ -203,6 +212,7 @@ Cmu& Backtrack::FindNextVertex(const Graph& data, const Graph& query, const Cand
 
     return cmu_next;
 }
+
 
 void Backtrack::Check(const Graph& data, const Graph& query, const CandidateSet& cs, std::vector<VertexPair>& partial_embedding) {
     for(int i=0;i<int(query.GetNumVertices());i++) {

@@ -42,9 +42,25 @@ math.h
 common.h
 ../include/common.h
 
+/home/vagrant/algorithm/subgraph_match_challenge/backtrack_tutorial/backtrack_tutorial.cc
+candidate_set.h
+/home/vagrant/algorithm/subgraph_match_challenge/backtrack_tutorial/candidate_set.h
+common.h
+/home/vagrant/algorithm/subgraph_match_challenge/backtrack_tutorial/common.h
+graph.h
+/home/vagrant/algorithm/subgraph_match_challenge/backtrack_tutorial/graph.h
+
 /home/vagrant/algorithm/subgraph_match_challenge/src/backtrack.cc
 backtrack.h
 /home/vagrant/algorithm/subgraph_match_challenge/src/backtrack.h
 math.h
 /home/vagrant/algorithm/subgraph_match_challenge/src/math.h
+
+/home/vagrant/algorithm/subgraph_match_challenge/src/candidate_set.cc
+candidate_set.h
+/home/vagrant/algorithm/subgraph_match_challenge/src/candidate_set.h
+
+/home/vagrant/algorithm/subgraph_match_challenge/src/graph.cc
+graph.h
+/home/vagrant/algorithm/subgraph_match_challenge/src/graph.h
 

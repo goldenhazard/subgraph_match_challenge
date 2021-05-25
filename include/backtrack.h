@@ -24,6 +24,7 @@ class Backtrack {
     
     Vertex FindRoot(const Graph& query, const CandidateSet& cs);
     
+    // Find next u to step on
     Cmu& FindNextVertex(const Graph& data, const Graph& query, const CandidateSet& cs,
                       std::vector<VertexPair>& partial_embedding, Cmu& cmu_next);
 

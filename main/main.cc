@@ -11,10 +11,12 @@
 
 void test_all(){
   std::vector<std::string> data_file_names;
-  data_file_names.push_back("lcc_hprd"); data_file_names.push_back("lcc_human"); data_file_names.push_back("lcc_yeast");
+  data_file_names.push_back("lcc_hprd");
+  data_file_names.push_back("lcc_human"); 
+  data_file_names.push_back("lcc_yeast");
 
   std::vector<std::string> query_types;
-  query_types.push_back("n1"); query_types.push_back("n3"); 
+  query_types.push_back("n1"); query_types.push_back("n3");
   query_types.push_back("n5"); query_types.push_back("n8");
   query_types.push_back("s1"); query_types.push_back("s3"); query_types.push_back("s5"); query_types.push_back("s8");
 
