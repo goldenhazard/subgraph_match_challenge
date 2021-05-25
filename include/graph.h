@@ -62,6 +62,8 @@ class Graph {
   std::vector<Label> label_;
   std::vector<Vertex> adj_array_;
 
+  
+
   Label max_label_;
 };
 

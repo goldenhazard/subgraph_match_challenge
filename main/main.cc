@@ -35,13 +35,13 @@ void test_all(){
 
       std::cout << "[Loading complete]" << std::endl;
 
-      auto start = clock();
-      backtrack.PrintAllMatches(data, query, candidate_set);
-      auto end = clock();
-      auto summary_pair = backtrack.FinalSummary();
-      std::cout << "Embedding #: " << summary_pair.first << " Recursion_call #:" << summary_pair.second << std::endl;
-      std::cout << "Time Elapsed: " << end - start << "[ms]" << std::endl;
-      std::cout << "=======================================" << std::endl;
+      // auto start = clock();
+      // backtrack.PrintAllMatches(data, query, candidate_set);
+      // auto end = clock();
+      //auto summary_pair = backtrack.FinalSummary();
+      // std::cout << "Embedding #: " << summary_pair.first << " Recursion_call #:" << summary_pair.second << std::endl;
+      // std::cout << "Time Elapsed: " << end - start << "[ms]" << std::endl;
+      // std::cout << "=======================================" << std::endl;
     }
   }
 }

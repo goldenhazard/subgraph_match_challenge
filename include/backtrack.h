@@ -23,37 +23,29 @@ class Backtrack {
                       std::vector<VertexPair>& partial_embedding);
     
     Vertex FindRoot(const Graph& query, const CandidateSet& cs);
-    
-    // Find next u to step on
-    Cmu& FindNextVertex(const Graph& data, const Graph& query, const CandidateSet& cs,
-                      std::vector<VertexPair>& partial_embedding, Cmu& cmu_next);
+    Vertex FindNextVertex(size_t level);
 
-    std::vector<Cmu>& BuildCmuHeap(const Graph& data, const Graph& query, const CandidateSet& cs, 
-                      std::vector<VertexPair>& partial_embedding, std::vector<Cmu>& cmu_heap);
-    Vertex NextVertexToExtend(std::vector<Cmu>& cmu_heap);
     Vertex FindVByU(std::vector<VertexPair>& partial_embedding, Vertex u);
     Vertex FindUByV(std::vector<VertexPair>& partial_embedding, Vertex u);
-    //void pushU();
-    //void popU();
-    //void pushUV();
-    //void popUV();
+    void pushUV(size_t level, Vertex u, Vertex v, const Graph& data, const Graph& query, const CandidateSet& cs);
+    void popUV(Vertex u, const Graph& query);
 
     // Debugger Functions
     void Check(const Graph& data, const Graph& query, const CandidateSet& cs,
                       std::vector<VertexPair>& partial_embedding);
-    std::pair<size_t, size_t> FinalSummary();
+    void PrintExtendables();
 
   private:
     std::vector<bool> visited_u;
     std::vector<bool> visited_v;
-    std::vector<bool> extendable_u;
-    std::vector<std::vector<Vertex>> extendable_v;
+    //   level       u      isExtendable
+    std::vector<std::vector<bool>> extendable_u; // 모든 u에 대해 extendable인지 boolean
+    //   level       u           extendable_v
+    std::vector<std::vector<std::set<Vertex>>> extendable_v; // u에 대해 extendable한 v만 저장
+    std::vector<size_t> inssaPower;
+    int query_size;
     size_t embedding_number = 0;
     size_t recursion_call = 0;
 };
 
 #endif  // BACKTRACK_H_
-
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

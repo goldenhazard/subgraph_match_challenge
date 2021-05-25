@@ -54,3 +54,9 @@ graph.h
 time.h
 -
 
+/home/vagrant/algorithm/subgraph_match_challenge/src/backtrack.cc
+backtrack.h
+/home/vagrant/algorithm/subgraph_match_challenge/src/backtrack.h
+math.h
+/home/vagrant/algorithm/subgraph_match_challenge/src/math.h
+
