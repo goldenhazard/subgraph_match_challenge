@@ -24,8 +24,15 @@ void Backtrack::PrintAllMatches(const Graph &data, const Graph &query,
 
     // implement your code here.
     query_size = query.GetNumVertices();
-    visited_u.resize(query.GetNumVertices());
+    visited_u.resize(query_size);
     visited_v.resize(data.GetNumVertices());
+    extendable_u.resize(query_size);
+    extendable_v.resize(query_size);
+    inssaPower.resize(query_size);
+    for(int i=0;i<query_size;i++) {
+        extendable_u[i].resize(query_size);
+        extendable_v[i].resize(query_size);
+    }
 
     std::vector<VertexPair> matchedVertex;
     DoBacktrack(data, query, cs, matchedVertex);
@@ -62,9 +69,9 @@ void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const Candida
     PrintEmbedding(partial_embedding);
     //if(embedding_number >= 100000) return;
     if(partial_embedding.size() == query.GetNumVertices()){
-        //Check(data, query, cs, partial_embedding);
+        Check(data, query, cs, partial_embedding);
         embedding_number += 1;
-        //PrintPath(partial_embedding);
+        PrintPath(partial_embedding);
         return;
     }
 
@@ -72,9 +79,9 @@ void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const Candida
         Vertex root = FindRoot(query, cs);
         for(size_t idx = 0; idx < cs.GetCandidateSize(root); idx++){
             Vertex v_next = cs.GetCandidate(root, idx);
+            pushUV(partial_embedding.size(), root, v_next, data, query, cs);
             partial_embedding.push_back(std::make_pair(root, v_next));
             visited_v[v_next] = true; visited_u[root] = true;
-            pushUV(partial_embedding.size(), root, v_next, data, query, cs);
             DoBacktrack(data, query, cs, partial_embedding);
             popUV(root, query);
             partial_embedding.pop_back();
@@ -86,12 +93,12 @@ void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const Candida
         Vertex u_next = FindNextVertex(partial_embedding.size());
         if(u_next == 99999) return;
         for(Vertex v_next: extendable_v[partial_embedding.size()][u_next]){
+            pushUV(partial_embedding.size(), u_next, v_next, data, query, cs);
             partial_embedding.push_back(std::make_pair(u_next, v_next));
             visited_v[v_next] = true; visited_u[u_next] = true;
-            pushUV(partial_embedding.size(), u_next, v_next, data, query, cs);
             DoBacktrack(data, query, cs, partial_embedding);
-            popUV(u_next, query);
             partial_embedding.pop_back();
+            popUV(u_next, query);
             visited_v[v_next] = false; visited_u[u_next] = false;
         }
     }
@@ -133,29 +140,8 @@ Vertex Backtrack::FindNextVertex(size_t level) {
  * @return extendable[level] u, v가 추가되었을 때 extendable database.
  */
 void Backtrack::pushUV(size_t level, Vertex u, Vertex v, const Graph& data, const Graph& query, const CandidateSet& cs) {
-    // 추가할 u의 이웃을 불러온다 inssaPower[u] = 0;
-    // 이미 방문한 이웃 u_extend는 건너뛴다
-    // u의 이웃을 읽을 때 인싸력을 올려준다 i.e. inssaPower[u_iterate]++;
-    // 방문하지 않은 이웃에 대해
-    // u_extend의 c_M(u)를 불러온다
-    // partial_embedding을 읽으면서 지움
-    /*std::set<Vertex> neighbor;
-    neighbor = query.GetNeighborSets(neighbor, u);
-    for(Vertex u_neighbor : neighbor) {
-        inssaPower[u_neighbor]++;
-        //extendable_v[level+1][u_neighbor].clear();
-        if(!visited_u[u_neighbor]) {
-            extendable_u[level+1][u_neighbor] = true;
-            for(Vertex v_cmu : extendable_v[level][u_neighbor]) {
-                for(VertexPair p : partial_embedding) {
-                    if(!visited_v[v_cmu] && (!query.IsNeighbor(p.first, u_neighbor) || data.IsNeighbor(p.second, v_cmu))) {
-                        extendable_v[level+1][u_neighbor].insert(v_cmu);
-                        break;
-                    }
-                }
-            }
-        }
-    }*/
+    std::cout << "[LEVEL] " << level << " (" << u << "," << v << ")" << std::endl;
+    if(level+1 == size_t(query_size)) return;
     for(int w=0;w<query_size;w++) {
         extendable_v[level+1][w].clear();
         // w == u : 할게 없다
@@ -166,16 +152,21 @@ void Backtrack::pushUV(size_t level, Vertex u, Vertex v, const Graph& data, cons
         if(extendable_u[level][w]) {
             extendable_u[level+1][w] = true;
             for(Vertex v_cmu : extendable_v[level][w]) {
-                if(!query.IsNeighbor(w,u) || data.IsNeighbor(v_cmu,v)) extendable_v[level+1][w].insert(v_cmu);
+                if(!visited_v[v_cmu] && (!query.IsNeighbor(w,u) || data.IsNeighbor(v_cmu,v))) extendable_v[level+1][w].insert(v_cmu);
             }
         } else if(query.IsNeighbor(w,u)) {
             extendable_u[level+1][w] = true;
             std::set<Vertex> candidate_set;
             candidate_set = cs.GetCandidateSet(candidate_set, w);
             for(Vertex v_cmu : candidate_set) {
-                if(!query.IsNeighbor(w,u) || data.IsNeighbor(v_cmu,v)) extendable_v[level+1][w].insert(v_cmu);
+                if(!visited_v[v_cmu] && (!query.IsNeighbor(w,u) || data.IsNeighbor(v_cmu,v))) extendable_v[level+1][w].insert(v_cmu);
             }
         }
+    }
+    for(int w=0;w<query_size;w++) {
+        std::cout << "[EXTENDABLE] " << w << " " << extendable_v[level+1][w].size();
+        for(Vertex v_cmu : extendable_v[level+1][w]) std::cout << " " << v_cmu;
+        std::cout << std::endl;
     }
 }
 
@@ -220,4 +211,9 @@ Vertex Backtrack::FindUByV(std::vector<VertexPair>& partial_embedding, Vertex v)
         if(pair.second == v) return pair.first;
     }
     return -1;
+}
+
+std::pair<size_t, size_t> Backtrack::FinalSummary(){
+    // std::cout << "Embedding #: " << embedding_number << "Recursion call: " << recursion_call << std::endl;
+    return std::make_pair(embedding_number, recursion_call);
 }

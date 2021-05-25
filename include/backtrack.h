@@ -33,6 +33,7 @@ class Backtrack {
     // Debugger Functions
     void Check(const Graph& data, const Graph& query, const CandidateSet& cs,
                       std::vector<VertexPair>& partial_embedding);
+    std::pair<size_t, size_t> FinalSummary();
 
   private:
     std::vector<bool> visited_u;
