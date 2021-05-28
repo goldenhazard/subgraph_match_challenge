@@ -6,7 +6,7 @@
 #include "backtrack.h"
 #include "math.h"
 
-#define NOT_FIND 99999
+#define NOT_FIND 999999
 
 using VertexPair = std::pair<Vertex, Vertex>;
 using Cmu = std::pair<Vertex, std::set<Vertex>>;
@@ -81,8 +81,8 @@ void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const Candida
     //PrintEmbedding(partial_embedding);
     //printExtendable();
     recursion_call += 1;
-    //if(recursion_call % 1000000 == 0) std::cout << recursion_call << std::endl;
-    //if(embedding_number >= 100000) return;
+    if(recursion_call % 1000000 == 0) std::cout << "Recursion_call: " << recursion_call  << " Embedding_number: " << embedding_number << std::endl;
+    if(embedding_number >= 100000) return;
     if(partial_embedding.size() == query.GetNumVertices()){
         //Check(data, query, cs, partial_embedding);
         embedding_number += 1;
@@ -113,17 +113,20 @@ void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const Candida
 
 Vertex Backtrack::FindRoot(const Graph& query, const CandidateSet& cs) {
     Vertex root = 0;
-    double max = double(cs.GetCandidateSize(0)) / query.GetDegree(0);
-    for(int v=1;v<query_size;v++) {
+    size_t min_candidate = cs.GetCandidateSize(0);
+    for(size_t v=0;v<query.GetNumVertices();v++) {
         //std::cout << "[CS SIZE] " << v << " " << cs.GetCandidateSize(v) << std::endl;
-        if(double(cs.GetCandidateSize(v)) / query.GetDegree(v) < max) {
+        if(cs.GetCandidateSize(v) == 1) {
             root = v;
-            max = double(cs.GetCandidateSize(v)) / query.GetDegree(v);
+            break;
+        }
+        if(cs.GetCandidateSize(v) < min_candidate) {
+            root = v;
+            min_candidate = cs.GetCandidateSize(v);
         }
     }
-    std::cout << "Root is : " << root << std::endl;
-    root = 0;
-    return root;
+    //std::cout << "Root is : " << root << std::endl;
+    return Vertex(root);
 }
 
 double Backtrack::BranchFactor(size_t level, Vertex u, double ratio){
@@ -138,15 +141,13 @@ double Backtrack::BranchFactor(size_t level, Vertex u, double ratio){
     return (double)branch_prob/num;
 }
 
-
-
 Vertex Backtrack::FindNextVertex(size_t level) {
     Vertex returnVertex = NOT_FIND;
     double min_metric = NOT_FIND;
 
     for(int u=0;u<query_size;u++) {
         if(extendable_u[level][u]) {
-            if(extendable_v[level][u].size() == 0) continue;
+            if(extendable_v[level][u].size() == 0) return NOT_FIND;
             auto metric = (double)extendable_v[level][u].size();
             if(metric < min_metric) {
                 returnVertex = u;
@@ -195,7 +196,7 @@ void Backtrack::pushUV(std::vector<VertexPair>& partial_embedding, Vertex u, Ver
         } else if(query.IsNeighbor(w,u)) {
             //std::cout << w << " is new extendable neighbor!" << std::endl;
             extendable_u[level][w] = true;
-            std::set<Vertex> candidate_set;
+            std::vector<Vertex> candidate_set;
             candidate_set = cs.GetCandidateSet(candidate_set, w);
             for(Vertex v_cmu : candidate_set) {
                 if((v_cmu != v) && !visited_v[v_cmu] && data.IsNeighbor(v_cmu,v))

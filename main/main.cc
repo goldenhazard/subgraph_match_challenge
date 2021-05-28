@@ -59,7 +59,7 @@ int main(int argc, char* argv[]) {
   }
 
   std::string data_file_name = argv[1];
-  std::cout << "Data file name: " << data_file_name << std::endl;
+  //std::cout << "Data file name: " << data_file_name << std::endl;
   std::string query_file_name = argv[2];
   std::string candidate_set_file_name = argv[3];
 
