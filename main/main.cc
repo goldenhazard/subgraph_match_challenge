@@ -11,7 +11,7 @@
 
 void test_all(){
   std::vector<std::string> data_file_names;
-  data_file_names.push_back("lcc_hprd");
+  //data_file_names.push_back("lcc_hprd");
   data_file_names.push_back("lcc_human"); 
   data_file_names.push_back("lcc_yeast");
 
@@ -35,19 +35,27 @@ void test_all(){
 
       std::cout << "[Loading complete]" << std::endl;
 
-      // auto start = clock();
-      // backtrack.PrintAllMatches(data, query, candidate_set);
-      // auto end = clock();
-      //auto summary_pair = backtrack.FinalSummary();
-      // std::cout << "Embedding #: " << summary_pair.first << " Recursion_call #:" << summary_pair.second << std::endl;
-      // std::cout << "Time Elapsed: " << end - start << "[ms]" << std::endl;
-      // std::cout << "=======================================" << std::endl;
+      auto start = clock();
+      backtrack.PrintAllMatches(data, query, candidate_set);
+      auto end = clock();
+      auto summary_pair = backtrack.FinalSummary();
+      std::cout << "Embedding #: " << summary_pair.first << " Recursion_call #:" << summary_pair.second << std::endl;
+      std::cout << "Time Elapsed: " << end - start << "[ms]" << std::endl;
+      std::cout << "=======================================" << std::endl;
     }
   }
 }
 
 
 int main(int argc, char* argv[]) {
+  std::vector<bool> bool_vector;
+  bool_vector.resize(10);
+  bool_vector[0] = true;
+  for(auto flag : bool_vector) std::cout << flag << std::endl;
+  bool_vector.clear();
+  for(auto flag : bool_vector) std::cout << flag << std::endl;
+  return EXIT_SUCCESS;
+
   std::string mode = argv[1];
   if(mode == "test_all"){
     test_all();
@@ -61,7 +69,6 @@ int main(int argc, char* argv[]) {
   }
 
   std::string data_file_name = argv[1];
-  std::cout << "Data file name: " << data_file_name << std::endl;
   std::string query_file_name = argv[2];
   std::string candidate_set_file_name = argv[3];
 

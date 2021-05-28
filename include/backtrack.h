@@ -18,22 +18,25 @@ class Backtrack {
     void PrintAllMatches(const Graph &data, const Graph &query,
                         const CandidateSet &cs);
     void PrintPath(std::vector<VertexPair> partial_embedding);
+    void PrintEmbedding(std::vector<VertexPair> partial_embedding);
 
     void DoBacktrack(const Graph& graph, const Graph& query, const CandidateSet& cs,
                       std::vector<VertexPair>& partial_embedding);
     
     Vertex FindRoot(const Graph& query, const CandidateSet& cs);
-    Vertex FindNextVertex(size_t level);
+    Vertex FindNextVertex(const Graph& query, size_t level);
 
     Vertex FindVByU(std::vector<VertexPair>& partial_embedding, Vertex u);
     Vertex FindUByV(std::vector<VertexPair>& partial_embedding, Vertex u);
     void pushUV(size_t level, Vertex u, Vertex v, const Graph& data, const Graph& query, const CandidateSet& cs);
     void popUV(Vertex u, const Graph& query);
 
+    Vertex GetInssaPower(const Graph& query, Vertex u);
+
     // Debugger Functions
     void Check(const Graph& data, const Graph& query, const CandidateSet& cs,
                       std::vector<VertexPair>& partial_embedding);
-    void PrintExtendables();
+    std::pair<size_t, size_t> FinalSummary();
 
   private:
     std::vector<bool> visited_u;
