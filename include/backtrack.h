@@ -24,12 +24,12 @@ class Backtrack {
                       std::vector<VertexPair>& partial_embedding);
     
     Vertex FindRoot(const Graph& query, const CandidateSet& cs);
-    Vertex FindNextVertex(const Graph& query, size_t level);
+    Vertex FindNextVertex(size_t level);
 
     Vertex FindVByU(std::vector<VertexPair>& partial_embedding, Vertex u);
     Vertex FindUByV(std::vector<VertexPair>& partial_embedding, Vertex u);
-    void pushUV(size_t level, Vertex u, Vertex v, const Graph& data, const Graph& query, const CandidateSet& cs);
-    void popUV(Vertex u, const Graph& query);
+    void pushUV(std::vector<VertexPair>& partial_embedding, Vertex u, Vertex v, const Graph& data, const Graph& query, const CandidateSet& cs);
+    void popUV(std::vector<VertexPair>& partial_embedding, Vertex u, Vertex v, const Graph& query);
 
     Vertex GetInssaPower(const Graph& query, Vertex u);
 
@@ -37,6 +37,10 @@ class Backtrack {
     void Check(const Graph& data, const Graph& query, const CandidateSet& cs,
                       std::vector<VertexPair>& partial_embedding);
     std::pair<size_t, size_t> FinalSummary();
+    void printExtendable();
+
+    // Metric Function
+    double BranchFactor(size_t level, Vertex u, double ratio);
 
   private:
     std::vector<bool> visited_u;
@@ -44,8 +48,10 @@ class Backtrack {
     //   level       u      isExtendable
     std::vector<std::vector<bool>> extendable_u; // 모든 u에 대해 extendable인지 boolean
     //   level       u           extendable_v
-    std::vector<std::vector<std::set<Vertex>>> extendable_v; // u에 대해 extendable한 v만 저장
+    //std::vector<std::vector<std::set<Vertex>>> extendable_v; // u에 대해 extendable한 v만 저장
+    std::vector<std::vector<std::vector<Vertex>>> extendable_v; // u에 대해 extendable한 v만 저장
     std::vector<size_t> inssaPower;
+    std::vector<size_t> frequency;
     int query_size;
     size_t embedding_number = 0;
     size_t recursion_call = 0;
