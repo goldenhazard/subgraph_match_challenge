@@ -9,9 +9,9 @@
 #include "graph.h"
 #include <time.h>
 
-/*void test_all(){
+void test_all(){
   std::vector<std::string> data_file_names;
-  //data_file_names.push_back("lcc_hprd");
+  data_file_names.push_back("lcc_hprd");
   data_file_names.push_back("lcc_human"); 
   data_file_names.push_back("lcc_yeast");
 
@@ -44,15 +44,15 @@
       std::cout << "=======================================" << std::endl;
     }
   }
-}*/
+}
 
 
 int main(int argc, char* argv[]) {
   std::string mode = argv[1];
-  /*if(mode == "test_all"){
+  if(mode == "test_all"){
     test_all();
     return EXIT_SUCCESS;
-  }*/
+  }
 
   if (argc < 4) {
     std::cerr << "Usage: ./program <data graph file> <query graph file> "
@@ -61,6 +61,7 @@ int main(int argc, char* argv[]) {
   }
 
   std::string data_file_name = argv[1];
+  //std::cout << "Data file name: " << data_file_name << std::endl;
   std::string query_file_name = argv[2];
   std::string candidate_set_file_name = argv[3];
 

@@ -40,10 +40,10 @@ CandidateSet::CandidateSet(const std::string& filename) {
   fin.close();
 }
 
-std::set<Vertex>& CandidateSet::GetCandidateSet(std::set<Vertex>& candidate_set, Vertex u) const{
+std::vector<Vertex>& CandidateSet::GetCandidateSet(std::vector<Vertex>& candidate_set, Vertex u) const{
   // O(c_M(u))
   for(auto vertex : cs_[u])
-    candidate_set.insert(vertex);
+    candidate_set.push_back(vertex);
   return candidate_set;
 }
 

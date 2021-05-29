@@ -1,0 +1,1607 @@
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_n1.igraph|../candidate_set/lcc_hprd_n1.cs
+[Loading complete]
+t 50
+Root[0] Recursion_call: 437 Embedding_number: 96
+Root[1] Recursion_call: 390 Embedding_number: 96
+Root[2] Recursion_call: 390 Embedding_number: 96
+Root[3] Recursion_call: 265 Embedding_number: 96
+Root[4] Recursion_call: 223 Embedding_number: 96
+Root[5] Recursion_call: 223 Embedding_number: 96
+Root[6] Recursion_call: 223 Embedding_number: 96
+Root[7] Recursion_call: 223 Embedding_number: 96
+Root[8] Recursion_call: 223 Embedding_number: 96
+Root[9] Recursion_call: 223 Embedding_number: 96
+Root[10] Recursion_call: 223 Embedding_number: 96
+Root[11] Recursion_call: 223 Embedding_number: 96
+Root[12] Recursion_call: 223 Embedding_number: 96
+Root[13] Recursion_call: 223 Embedding_number: 96
+Root[14] Recursion_call: 223 Embedding_number: 96
+Root[15] Recursion_call: 223 Embedding_number: 96
+Root[16] Recursion_call: 223 Embedding_number: 96
+Root[17] Recursion_call: 223 Embedding_number: 96
+Root[18] Recursion_call: 223 Embedding_number: 96
+Root[19] Recursion_call: 223 Embedding_number: 96
+Root[20] Recursion_call: 223 Embedding_number: 96
+Root[21] Recursion_call: 223 Embedding_number: 96
+Root[22] Recursion_call: 271 Embedding_number: 96
+Root[23] Recursion_call: 385 Embedding_number: 96
+Root[24] Recursion_call: 223 Embedding_number: 96
+Root[25] Recursion_call: 223 Embedding_number: 96
+Root[26] Recursion_call: 223 Embedding_number: 96
+Root[27] Recursion_call: 223 Embedding_number: 96
+Root[28] Recursion_call: 223 Embedding_number: 96
+Root[29] Recursion_call: 223 Embedding_number: 96
+Root[30] Recursion_call: 223 Embedding_number: 96
+Root[31] Recursion_call: 223 Embedding_number: 96
+Root[32] Recursion_call: 223 Embedding_number: 96
+Root[33] Recursion_call: 223 Embedding_number: 96
+Root[34] Recursion_call: 223 Embedding_number: 96
+Root[35] Recursion_call: 223 Embedding_number: 96
+Root[36] Recursion_call: 223 Embedding_number: 96
+Root[37] Recursion_call: 223 Embedding_number: 96
+Root[38] Recursion_call: 223 Embedding_number: 96
+Root[39] Recursion_call: 223 Embedding_number: 96
+Root[40] Recursion_call: 223 Embedding_number: 96
+Root[41] Recursion_call: 223 Embedding_number: 96
+Root[42] Recursion_call: 269 Embedding_number: 96
+Root[43] Recursion_call: 223 Embedding_number: 96
+Root[44] Recursion_call: 223 Embedding_number: 96
+Root[45] Recursion_call: 223 Embedding_number: 96
+Root[46] Recursion_call: 223 Embedding_number: 96
+Root[47] Recursion_call: 273 Embedding_number: 96
+Root[48] Recursion_call: 223 Embedding_number: 96
+Root[49] Recursion_call: 223 Embedding_number: 96
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 14252[ms]
+=======================================
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_n3.igraph|../candidate_set/lcc_hprd_n3.cs
+[Loading complete]
+t 100
+Root[0] Recursion_call: 104762 Embedding_number: 100000
+Root[1] Recursion_call: 104762 Embedding_number: 100000
+Root[2] Recursion_call: 104762 Embedding_number: 100000
+Root[3] Recursion_call: 104762 Embedding_number: 100000
+Root[4] Recursion_call: 104762 Embedding_number: 100000
+Root[5] Recursion_call: 104762 Embedding_number: 100000
+Root[6] Recursion_call: 104762 Embedding_number: 100000
+Root[7] Recursion_call: 104762 Embedding_number: 100000
+Root[8] Recursion_call: 104762 Embedding_number: 100000
+Root[9] Recursion_call: 104762 Embedding_number: 100000
+Root[10] Recursion_call: 104762 Embedding_number: 100000
+Root[11] Recursion_call: 104762 Embedding_number: 100000
+Root[12] Recursion_call: 104762 Embedding_number: 100000
+Root[13] Recursion_call: 104762 Embedding_number: 100000
+Root[14] Recursion_call: 104762 Embedding_number: 100000
+Root[15] Recursion_call: 104762 Embedding_number: 100000
+Root[16] Recursion_call: 104762 Embedding_number: 100000
+Root[17] Recursion_call: 104762 Embedding_number: 100000
+Root[18] Recursion_call: 104762 Embedding_number: 100000
+Root[19] Recursion_call: 104762 Embedding_number: 100000
+Root[20] Recursion_call: 104762 Embedding_number: 100000
+Root[21] Recursion_call: 104762 Embedding_number: 100000
+Root[22] Recursion_call: 104762 Embedding_number: 100000
+Root[23] Recursion_call: 104762 Embedding_number: 100000
+Root[24] Recursion_call: 104764 Embedding_number: 100000
+Root[25] Recursion_call: 104762 Embedding_number: 100000
+Root[26] Recursion_call: 104762 Embedding_number: 100000
+Root[27] Recursion_call: 104762 Embedding_number: 100000
+Root[28] Recursion_call: 104762 Embedding_number: 100000
+Root[29] Recursion_call: 104762 Embedding_number: 100000
+Root[30] Recursion_call: 104762 Embedding_number: 100000
+Root[31] Recursion_call: 104762 Embedding_number: 100000
+Root[32] Recursion_call: 104762 Embedding_number: 100000
+Root[33] Recursion_call: 104762 Embedding_number: 100000
+Root[34] Recursion_call: 104762 Embedding_number: 100000
+Root[35] Recursion_call: 104762 Embedding_number: 100000
+Root[36] Recursion_call: 105068 Embedding_number: 100000
+Root[37] Recursion_call: 104762 Embedding_number: 100000
+Root[38] Recursion_call: 104762 Embedding_number: 100000
+Root[39] Recursion_call: 104772 Embedding_number: 100000
+Root[40] Recursion_call: 104762 Embedding_number: 100000
+Root[41] Recursion_call: 104762 Embedding_number: 100000
+Root[42] Recursion_call: 104762 Embedding_number: 100000
+Root[43] Recursion_call: 104762 Embedding_number: 100000
+Root[44] Recursion_call: 104752 Embedding_number: 100000
+Root[45] Recursion_call: 104762 Embedding_number: 100000
+Root[46] Recursion_call: 104762 Embedding_number: 100000
+Root[47] Recursion_call: 104762 Embedding_number: 100000
+Root[48] Recursion_call: 104762 Embedding_number: 100000
+Root[49] Recursion_call: 104762 Embedding_number: 100000
+Root[50] Recursion_call: 104762 Embedding_number: 100000
+Root[51] Recursion_call: 105611 Embedding_number: 100000
+Root[52] Recursion_call: 104762 Embedding_number: 100000
+Root[53] Recursion_call: 104762 Embedding_number: 100000
+Root[54] Recursion_call: 104762 Embedding_number: 100000
+Root[55] Recursion_call: 104762 Embedding_number: 100000
+Root[56] Recursion_call: 104762 Embedding_number: 100000
+Root[57] Recursion_call: 104762 Embedding_number: 100000
+Root[58] Recursion_call: 104752 Embedding_number: 100000
+Root[59] Recursion_call: 104762 Embedding_number: 100000
+Root[60] Recursion_call: 104762 Embedding_number: 100000
+Root[61] Recursion_call: 104762 Embedding_number: 100000
+Root[62] Recursion_call: 104762 Embedding_number: 100000
+Root[63] Recursion_call: 104762 Embedding_number: 100000
+Root[64] Recursion_call: 104762 Embedding_number: 100000
+Root[65] Recursion_call: 104762 Embedding_number: 100000
+Root[66] Recursion_call: 104762 Embedding_number: 100000
+Root[67] Recursion_call: 104762 Embedding_number: 100000
+Root[68] Recursion_call: 104762 Embedding_number: 100000
+Root[69] Recursion_call: 104762 Embedding_number: 100000
+Root[70] Recursion_call: 104762 Embedding_number: 100000
+Root[71] Recursion_call: 104762 Embedding_number: 100000
+Root[72] Recursion_call: 104762 Embedding_number: 100000
+Root[73] Recursion_call: 104753 Embedding_number: 100000
+Root[74] Recursion_call: 104762 Embedding_number: 100000
+Root[75] Recursion_call: 104762 Embedding_number: 100000
+Root[76] Recursion_call: 104762 Embedding_number: 100000
+Root[77] Recursion_call: 104762 Embedding_number: 100000
+Root[78] Recursion_call: 104762 Embedding_number: 100000
+Root[79] Recursion_call: 104762 Embedding_number: 100000
+Root[80] Recursion_call: 104762 Embedding_number: 100000
+Root[81] Recursion_call: 120700 Embedding_number: 100000
+Root[82] Recursion_call: 104762 Embedding_number: 100000
+Root[83] Recursion_call: 104762 Embedding_number: 100000
+Root[84] Recursion_call: 104762 Embedding_number: 100000
+Root[85] Recursion_call: 104762 Embedding_number: 100000
+Root[86] Recursion_call: 104762 Embedding_number: 100000
+Root[87] Recursion_call: 104762 Embedding_number: 100000
+Root[88] Recursion_call: 104762 Embedding_number: 100000
+Root[89] Recursion_call: 104843 Embedding_number: 100000
+Root[90] Recursion_call: 105093 Embedding_number: 100000
+Root[91] Recursion_call: 104762 Embedding_number: 100000
+Root[92] Recursion_call: 104762 Embedding_number: 100000
+Root[93] Recursion_call: 104762 Embedding_number: 100000
+Root[94] Recursion_call: 104752 Embedding_number: 100000
+Root[95] Recursion_call: 104762 Embedding_number: 100000
+Root[96] Recursion_call: 104762 Embedding_number: 100000
+Root[97] Recursion_call: 104762 Embedding_number: 100000
+Root[98] Recursion_call: 104788 Embedding_number: 100000
+Root[99] Recursion_call: 104774 Embedding_number: 100000
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 9676179[ms]
+=======================================
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_n5.igraph|../candidate_set/lcc_hprd_n5.cs
+[Loading complete]
+t 150
+Root[0] Recursion_call: 35583 Embedding_number: 32832
+Root[1] Recursion_call: 35583 Embedding_number: 32832
+Root[2] Recursion_call: 35583 Embedding_number: 32832
+Root[3] Recursion_call: 35583 Embedding_number: 32832
+Root[4] Recursion_call: 35583 Embedding_number: 32832
+Root[5] Recursion_call: 35583 Embedding_number: 32832
+Root[6] Recursion_call: 35583 Embedding_number: 32832
+Root[7] Recursion_call: 35583 Embedding_number: 32832
+Root[8] Recursion_call: 35902 Embedding_number: 32832
+Root[9] Recursion_call: 35583 Embedding_number: 32832
+Root[10] Recursion_call: 35583 Embedding_number: 32832
+Root[11] Recursion_call: 35583 Embedding_number: 32832
+Root[12] Recursion_call: 35583 Embedding_number: 32832
+Root[13] Recursion_call: 35583 Embedding_number: 32832
+Root[14] Recursion_call: 35723 Embedding_number: 32832
+Root[15] Recursion_call: 35583 Embedding_number: 32832
+Root[16] Recursion_call: 35583 Embedding_number: 32832
+Root[17] Recursion_call: 35583 Embedding_number: 32832
+Root[18] Recursion_call: 35583 Embedding_number: 32832
+Root[19] Recursion_call: 35583 Embedding_number: 32832
+Root[20] Recursion_call: 35583 Embedding_number: 32832
+Root[21] Recursion_call: 35583 Embedding_number: 32832
+Root[22] Recursion_call: 35583 Embedding_number: 32832
+Root[23] Recursion_call: 35583 Embedding_number: 32832
+Root[24] Recursion_call: 35583 Embedding_number: 32832
+Root[25] Recursion_call: 35583 Embedding_number: 32832
+Root[26] Recursion_call: 35583 Embedding_number: 32832
+Root[27] Recursion_call: 35583 Embedding_number: 32832
+Root[28] Recursion_call: 35583 Embedding_number: 32832
+Root[29] Recursion_call: 35583 Embedding_number: 32832
+Root[30] Recursion_call: 35583 Embedding_number: 32832
+Root[31] Recursion_call: 35583 Embedding_number: 32832
+Root[32] Recursion_call: 35583 Embedding_number: 32832
+Root[33] Recursion_call: 35583 Embedding_number: 32832
+Root[34] Recursion_call: 35583 Embedding_number: 32832
+Root[35] Recursion_call: 35583 Embedding_number: 32832
+Root[36] Recursion_call: 35583 Embedding_number: 32832
+Root[37] Recursion_call: 35583 Embedding_number: 32832
+Root[38] Recursion_call: 35583 Embedding_number: 32832
+Root[39] Recursion_call: 35583 Embedding_number: 32832
+Root[40] Recursion_call: 35583 Embedding_number: 32832
+Root[41] Recursion_call: 35583 Embedding_number: 32832
+Root[42] Recursion_call: 35583 Embedding_number: 32832
+Root[43] Recursion_call: 35583 Embedding_number: 32832
+Root[44] Recursion_call: 35583 Embedding_number: 32832
+Root[45] Recursion_call: 35583 Embedding_number: 32832
+Root[46] Recursion_call: 35583 Embedding_number: 32832
+Root[47] Recursion_call: 35583 Embedding_number: 32832
+Root[48] Recursion_call: 35583 Embedding_number: 32832
+Root[49] Recursion_call: 35583 Embedding_number: 32832
+Root[50] Recursion_call: 35583 Embedding_number: 32832
+Root[51] Recursion_call: 35583 Embedding_number: 32832
+Root[52] Recursion_call: 35583 Embedding_number: 32832
+Root[53] Recursion_call: 35583 Embedding_number: 32832
+Root[54] Recursion_call: 35583 Embedding_number: 32832
+Root[55] Recursion_call: 52356 Embedding_number: 32832
+Root[56] Recursion_call: 35583 Embedding_number: 32832
+Root[57] Recursion_call: 35583 Embedding_number: 32832
+Root[58] Recursion_call: 35583 Embedding_number: 32832
+Root[59] Recursion_call: 35583 Embedding_number: 32832
+Root[60] Recursion_call: 35583 Embedding_number: 32832
+Root[61] Recursion_call: 35583 Embedding_number: 32832
+Root[62] Recursion_call: 35583 Embedding_number: 32832
+Root[63] Recursion_call: 35583 Embedding_number: 32832
+Root[64] Recursion_call: 35583 Embedding_number: 32832
+Root[65] Recursion_call: 35583 Embedding_number: 32832
+Root[66] Recursion_call: 35583 Embedding_number: 32832
+Root[67] Recursion_call: 35583 Embedding_number: 32832
+Root[68] Recursion_call: 35583 Embedding_number: 32832
+Root[69] Recursion_call: 35583 Embedding_number: 32832
+Root[70] Recursion_call: 35583 Embedding_number: 32832
+Root[71] Recursion_call: 35583 Embedding_number: 32832
+Root[72] Recursion_call: 35583 Embedding_number: 32832
+Root[73] Recursion_call: 35583 Embedding_number: 32832
+Root[74] Recursion_call: 35583 Embedding_number: 32832
+Root[75] Recursion_call: 35583 Embedding_number: 32832
+Root[76] Recursion_call: 35583 Embedding_number: 32832
+Root[77] Recursion_call: 35583 Embedding_number: 32832
+Root[78] Recursion_call: 35583 Embedding_number: 32832
+Root[79] Recursion_call: 35583 Embedding_number: 32832
+Root[80] Recursion_call: 35583 Embedding_number: 32832
+Root[81] Recursion_call: 35583 Embedding_number: 32832
+Root[82] Recursion_call: 35583 Embedding_number: 32832
+Root[83] Recursion_call: 35583 Embedding_number: 32832
+Root[84] Recursion_call: 35583 Embedding_number: 32832
+Root[85] Recursion_call: 35723 Embedding_number: 32832
+Root[86] Recursion_call: 35583 Embedding_number: 32832
+Root[87] Recursion_call: 35583 Embedding_number: 32832
+Root[88] Recursion_call: 35583 Embedding_number: 32832
+Root[89] Recursion_call: 35583 Embedding_number: 32832
+Root[90] Recursion_call: 35583 Embedding_number: 32832
+Root[91] Recursion_call: 35583 Embedding_number: 32832
+Root[92] Recursion_call: 35583 Embedding_number: 32832
+Root[93] Recursion_call: 35583 Embedding_number: 32832
+Root[94] Recursion_call: 35583 Embedding_number: 32832
+Root[95] Recursion_call: 35583 Embedding_number: 32832
+Root[96] Recursion_call: 35583 Embedding_number: 32832
+Root[97] Recursion_call: 35583 Embedding_number: 32832
+Root[98] Recursion_call: 35902 Embedding_number: 32832
+Root[99] Recursion_call: 35583 Embedding_number: 32832
+Root[100] Recursion_call: 35583 Embedding_number: 32832
+Root[101] Recursion_call: 35583 Embedding_number: 32832
+Root[102] Recursion_call: 35583 Embedding_number: 32832
+Root[103] Recursion_call: 35583 Embedding_number: 32832
+Root[104] Recursion_call: 35583 Embedding_number: 32832
+Root[105] Recursion_call: 35583 Embedding_number: 32832
+Root[106] Recursion_call: 35583 Embedding_number: 32832
+Root[107] Recursion_call: 35583 Embedding_number: 32832
+Root[108] Recursion_call: 35720 Embedding_number: 32832
+Root[109] Recursion_call: 35876 Embedding_number: 32832
+Root[110] Recursion_call: 35583 Embedding_number: 32832
+Root[111] Recursion_call: 35583 Embedding_number: 32832
+Root[112] Recursion_call: 35583 Embedding_number: 32832
+Root[113] Recursion_call: 35583 Embedding_number: 32832
+Root[114] Recursion_call: 35583 Embedding_number: 32832
+Root[115] Recursion_call: 35583 Embedding_number: 32832
+Root[116] Recursion_call: 35583 Embedding_number: 32832
+Root[117] Recursion_call: 35583 Embedding_number: 32832
+Root[118] Recursion_call: 35583 Embedding_number: 32832
+Root[119] Recursion_call: 35727 Embedding_number: 32832
+Root[120] Recursion_call: 35583 Embedding_number: 32832
+Root[121] Recursion_call: 35583 Embedding_number: 32832
+Root[122] Recursion_call: 35583 Embedding_number: 32832
+Root[123] Recursion_call: 35583 Embedding_number: 32832
+Root[124] Recursion_call: 35583 Embedding_number: 32832
+Root[125] Recursion_call: 35583 Embedding_number: 32832
+Root[126] Recursion_call: 35583 Embedding_number: 32832
+Root[127] Recursion_call: 35583 Embedding_number: 32832
+Root[128] Recursion_call: 35583 Embedding_number: 32832
+Root[129] Recursion_call: 35727 Embedding_number: 32832
+Root[130] Recursion_call: 35583 Embedding_number: 32832
+Root[131] Recursion_call: 35583 Embedding_number: 32832
+Root[132] Recursion_call: 35583 Embedding_number: 32832
+Root[133] Recursion_call: 35583 Embedding_number: 32832
+Root[134] Recursion_call: 35583 Embedding_number: 32832
+Root[135] Recursion_call: 35583 Embedding_number: 32832
+Root[136] Recursion_call: 35583 Embedding_number: 32832
+Root[137] Recursion_call: 35583 Embedding_number: 32832
+Root[138] Recursion_call: 35583 Embedding_number: 32832
+Root[139] Recursion_call: 35583 Embedding_number: 32832
+Root[140] Recursion_call: 35583 Embedding_number: 32832
+Root[141] Recursion_call: 35583 Embedding_number: 32832
+Root[142] Recursion_call: 35583 Embedding_number: 32832
+Root[143] Recursion_call: 35583 Embedding_number: 32832
+Root[144] Recursion_call: 35583 Embedding_number: 32832
+Root[145] Recursion_call: 35902 Embedding_number: 32832
+Root[146] Recursion_call: 35583 Embedding_number: 32832
+Root[147] Recursion_call: 35583 Embedding_number: 32832
+Root[148] Recursion_call: 35583 Embedding_number: 32832
+Root[149] Recursion_call: 35583 Embedding_number: 32832
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 5348526[ms]
+=======================================
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_n8.igraph|../candidate_set/lcc_hprd_n8.cs
+[Loading complete]
+t 200
+Root[0] Recursion_call: 107303 Embedding_number: 100000
+Root[1] Recursion_call: 107306 Embedding_number: 100000
+Root[2] Recursion_call: 107303 Embedding_number: 100000
+Root[3] Recursion_call: 107303 Embedding_number: 100000
+Root[4] Recursion_call: 107303 Embedding_number: 100000
+Root[5] Recursion_call: 107303 Embedding_number: 100000
+Root[6] Recursion_call: 107303 Embedding_number: 100000
+Root[7] Recursion_call: 107303 Embedding_number: 100000
+Root[8] Recursion_call: 107303 Embedding_number: 100000
+Root[9] Recursion_call: 107303 Embedding_number: 100000
+Root[10] Recursion_call: 107303 Embedding_number: 100000
+Root[11] Recursion_call: 107303 Embedding_number: 100000
+Root[12] Recursion_call: 107303 Embedding_number: 100000
+Root[13] Recursion_call: 107303 Embedding_number: 100000
+Root[14] Recursion_call: 107303 Embedding_number: 100000
+Root[15] Recursion_call: 107303 Embedding_number: 100000
+Root[16] Recursion_call: 107303 Embedding_number: 100000
+Root[17] Recursion_call: 107303 Embedding_number: 100000
+Root[18] Recursion_call: 107303 Embedding_number: 100000
+Root[19] Recursion_call: 107303 Embedding_number: 100000
+Root[20] Recursion_call: 107303 Embedding_number: 100000
+Root[21] Recursion_call: 107303 Embedding_number: 100000
+Root[22] Recursion_call: 107400 Embedding_number: 100000
+Root[23] Recursion_call: 107303 Embedding_number: 100000
+Root[24] Recursion_call: 107303 Embedding_number: 100000
+Root[25] Recursion_call: 107303 Embedding_number: 100000
+Root[26] Recursion_call: 107303 Embedding_number: 100000
+Root[27] Recursion_call: 107303 Embedding_number: 100000
+Root[28] Recursion_call: 107303 Embedding_number: 100000
+Root[29] Recursion_call: 107303 Embedding_number: 100000
+Root[30] Recursion_call: 107303 Embedding_number: 100000
+Root[31] Recursion_call: 133604 Embedding_number: 100000
+Root[32] Recursion_call: 107303 Embedding_number: 100000
+Root[33] Recursion_call: 107303 Embedding_number: 100000
+Root[34] Recursion_call: 107303 Embedding_number: 100000
+Root[35] Recursion_call: 107303 Embedding_number: 100000
+Root[36] Recursion_call: 107303 Embedding_number: 100000
+Root[37] Recursion_call: 107303 Embedding_number: 100000
+Root[38] Recursion_call: 107303 Embedding_number: 100000
+Root[39] Recursion_call: 107303 Embedding_number: 100000
+Root[40] Recursion_call: 107303 Embedding_number: 100000
+Root[41] Recursion_call: 107303 Embedding_number: 100000
+Root[42] Recursion_call: 107303 Embedding_number: 100000
+Root[43] Recursion_call: 107303 Embedding_number: 100000
+Root[44] Recursion_call: 107303 Embedding_number: 100000
+Root[45] Recursion_call: 107303 Embedding_number: 100000
+Root[46] Recursion_call: 107303 Embedding_number: 100000
+Root[47] Recursion_call: 107303 Embedding_number: 100000
+Root[48] Recursion_call: 107303 Embedding_number: 100000
+Root[49] Recursion_call: 107303 Embedding_number: 100000
+Root[50] Recursion_call: 107303 Embedding_number: 100000
+Root[51] Recursion_call: 107303 Embedding_number: 100000
+Root[52] Recursion_call: 107303 Embedding_number: 100000
+Root[53] Recursion_call: 107303 Embedding_number: 100000
+Root[54] Recursion_call: 107303 Embedding_number: 100000
+Root[55] Recursion_call: 107303 Embedding_number: 100000
+Root[56] Recursion_call: 107303 Embedding_number: 100000
+Root[57] Recursion_call: 107303 Embedding_number: 100000
+Root[58] Recursion_call: 107303 Embedding_number: 100000
+Root[59] Recursion_call: 107303 Embedding_number: 100000
+Root[60] Recursion_call: 107425 Embedding_number: 100000
+Root[61] Recursion_call: 107303 Embedding_number: 100000
+Root[62] Recursion_call: 107303 Embedding_number: 100000
+Root[63] Recursion_call: 107303 Embedding_number: 100000
+Root[64] Recursion_call: 107303 Embedding_number: 100000
+Root[65] Recursion_call: 107303 Embedding_number: 100000
+Root[66] Recursion_call: 107303 Embedding_number: 100000
+Root[67] Recursion_call: 107303 Embedding_number: 100000
+Root[68] Recursion_call: 107303 Embedding_number: 100000
+Root[69] Recursion_call: 107303 Embedding_number: 100000
+Root[70] Recursion_call: 107303 Embedding_number: 100000
+Root[71] Recursion_call: 107303 Embedding_number: 100000
+Root[72] Recursion_call: 107303 Embedding_number: 100000
+Root[73] Recursion_call: 107303 Embedding_number: 100000
+Root[74] Recursion_call: 107303 Embedding_number: 100000
+Root[75] Recursion_call: 107303 Embedding_number: 100000
+Root[76] Recursion_call: 107303 Embedding_number: 100000
+Root[77] Recursion_call: 107303 Embedding_number: 100000
+Root[78] Recursion_call: 107303 Embedding_number: 100000
+Root[79] Recursion_call: 107303 Embedding_number: 100000
+Root[80] Recursion_call: 107303 Embedding_number: 100000
+Root[81] Recursion_call: 107303 Embedding_number: 100000
+Root[82] Recursion_call: 107303 Embedding_number: 100000
+Root[83] Recursion_call: 107303 Embedding_number: 100000
+Root[84] Recursion_call: 107303 Embedding_number: 100000
+Root[85] Recursion_call: 107303 Embedding_number: 100000
+Root[86] Recursion_call: 107303 Embedding_number: 100000
+Root[87] Recursion_call: 107310 Embedding_number: 100000
+Root[88] Recursion_call: 107303 Embedding_number: 100000
+Root[89] Recursion_call: 107303 Embedding_number: 100000
+Root[90] Recursion_call: 107303 Embedding_number: 100000
+Root[91] Recursion_call: 107303 Embedding_number: 100000
+Root[92] Recursion_call: 107303 Embedding_number: 100000
+Root[93] Recursion_call: 107303 Embedding_number: 100000
+Root[94] Recursion_call: 107303 Embedding_number: 100000
+Root[95] Recursion_call: 107303 Embedding_number: 100000
+Root[96] Recursion_call: 107303 Embedding_number: 100000
+Root[97] Recursion_call: 107303 Embedding_number: 100000
+Root[98] Recursion_call: 107303 Embedding_number: 100000
+Root[99] Recursion_call: 107303 Embedding_number: 100000
+Root[100] Recursion_call: 107303 Embedding_number: 100000
+Root[101] Recursion_call: 107303 Embedding_number: 100000
+Root[102] Recursion_call: 107303 Embedding_number: 100000
+Root[103] Recursion_call: 107303 Embedding_number: 100000
+Root[104] Recursion_call: 107303 Embedding_number: 100000
+Root[105] Recursion_call: 107303 Embedding_number: 100000
+Root[106] Recursion_call: 107303 Embedding_number: 100000
+Root[107] Recursion_call: 107303 Embedding_number: 100000
+Root[108] Recursion_call: 107303 Embedding_number: 100000
+Root[109] Recursion_call: 107303 Embedding_number: 100000
+Root[110] Recursion_call: 107303 Embedding_number: 100000
+Root[111] Recursion_call: 107303 Embedding_number: 100000
+Root[112] Recursion_call: 107303 Embedding_number: 100000
+Root[113] Recursion_call: 107303 Embedding_number: 100000
+Root[114] Recursion_call: 107303 Embedding_number: 100000
+Root[115] Recursion_call: 107303 Embedding_number: 100000
+Root[116] Recursion_call: 107310 Embedding_number: 100000
+Root[117] Recursion_call: 107303 Embedding_number: 100000
+Root[118] Recursion_call: 107303 Embedding_number: 100000
+Root[119] Recursion_call: 107303 Embedding_number: 100000
+Root[120] Recursion_call: 107303 Embedding_number: 100000
+Root[121] Recursion_call: 107303 Embedding_number: 100000
+Root[122] Recursion_call: 107303 Embedding_number: 100000
+Root[123] Recursion_call: 107303 Embedding_number: 100000
+Root[124] Recursion_call: 107303 Embedding_number: 100000
+Root[125] Recursion_call: 107303 Embedding_number: 100000
+Root[126] Recursion_call: 107303 Embedding_number: 100000
+Root[127] Recursion_call: 107303 Embedding_number: 100000
+Root[128] Recursion_call: 107303 Embedding_number: 100000
+Root[129] Recursion_call: 107303 Embedding_number: 100000
+Root[130] Recursion_call: 107303 Embedding_number: 100000
+Root[131] Recursion_call: 107303 Embedding_number: 100000
+Root[132] Recursion_call: 107303 Embedding_number: 100000
+Root[133] Recursion_call: 107303 Embedding_number: 100000
+Root[134] Recursion_call: 107303 Embedding_number: 100000
+Root[135] Recursion_call: 107303 Embedding_number: 100000
+Root[136] Recursion_call: 107303 Embedding_number: 100000
+Root[137] Recursion_call: 107303 Embedding_number: 100000
+Root[138] Recursion_call: 107303 Embedding_number: 100000
+Root[139] Recursion_call: 107303 Embedding_number: 100000
+Root[140] Recursion_call: 107303 Embedding_number: 100000
+Root[141] Recursion_call: 107303 Embedding_number: 100000
+Root[142] Recursion_call: 107303 Embedding_number: 100000
+Root[143] Recursion_call: 107303 Embedding_number: 100000
+Root[144] Recursion_call: 107303 Embedding_number: 100000
+Root[145] Recursion_call: 107303 Embedding_number: 100000
+Root[146] Recursion_call: 107303 Embedding_number: 100000
+Root[147] Recursion_call: 107303 Embedding_number: 100000
+Root[148] Recursion_call: 107303 Embedding_number: 100000
+Root[149] Recursion_call: 107303 Embedding_number: 100000
+Root[150] Recursion_call: 107303 Embedding_number: 100000
+Root[151] Recursion_call: 107303 Embedding_number: 100000
+Root[152] Recursion_call: 107303 Embedding_number: 100000
+Root[153] Recursion_call: 107303 Embedding_number: 100000
+Root[154] Recursion_call: 107303 Embedding_number: 100000
+Root[155] Recursion_call: 107303 Embedding_number: 100000
+Root[156] Recursion_call: 107303 Embedding_number: 100000
+Root[157] Recursion_call: 113258 Embedding_number: 100000
+Root[158] Recursion_call: 107303 Embedding_number: 100000
+Root[159] Recursion_call: 107303 Embedding_number: 100000
+Root[160] Recursion_call: 107303 Embedding_number: 100000
+Root[161] Recursion_call: 107303 Embedding_number: 100000
+Root[162] Recursion_call: 107303 Embedding_number: 100000
+Root[163] Recursion_call: 107303 Embedding_number: 100000
+Root[164] Recursion_call: 107303 Embedding_number: 100000
+Root[165] Recursion_call: 107303 Embedding_number: 100000
+Root[166] Recursion_call: 107303 Embedding_number: 100000
+Root[167] Recursion_call: 107303 Embedding_number: 100000
+Root[168] Recursion_call: 107303 Embedding_number: 100000
+Root[169] Recursion_call: 107303 Embedding_number: 100000
+Root[170] Recursion_call: 107303 Embedding_number: 100000
+Root[171] Recursion_call: 107303 Embedding_number: 100000
+Root[172] Recursion_call: 106553 Embedding_number: 100000
+Root[173] Recursion_call: 106553 Embedding_number: 100000
+Root[174] Recursion_call: 107303 Embedding_number: 100000
+Root[175] Recursion_call: 107303 Embedding_number: 100000
+Root[176] Recursion_call: 107303 Embedding_number: 100000
+Root[177] Recursion_call: 107303 Embedding_number: 100000
+Root[178] Recursion_call: 107303 Embedding_number: 100000
+Root[179] Recursion_call: 107303 Embedding_number: 100000
+Root[180] Recursion_call: 107303 Embedding_number: 100000
+Root[181] Recursion_call: 107470 Embedding_number: 100000
+Root[182] Recursion_call: 107303 Embedding_number: 100000
+Root[183] Recursion_call: 107303 Embedding_number: 100000
+Root[184] Recursion_call: 107303 Embedding_number: 100000
+Root[185] Recursion_call: 107303 Embedding_number: 100000
+Root[186] Recursion_call: 107303 Embedding_number: 100000
+Root[187] Recursion_call: 107303 Embedding_number: 100000
+Root[188] Recursion_call: 107303 Embedding_number: 100000
+Root[189] Recursion_call: 107303 Embedding_number: 100000
+Root[190] Recursion_call: 107303 Embedding_number: 100000
+Root[191] Recursion_call: 107303 Embedding_number: 100000
+Root[192] Recursion_call: 107303 Embedding_number: 100000
+Root[193] Recursion_call: 107658 Embedding_number: 100000
+Root[194] Recursion_call: 107479 Embedding_number: 100000
+Root[195] Recursion_call: 107303 Embedding_number: 100000
+Root[196] Recursion_call: 107303 Embedding_number: 100000
+Root[197] Recursion_call: 107303 Embedding_number: 100000
+Root[198] Recursion_call: 107303 Embedding_number: 100000
+Root[199] Recursion_call: 107303 Embedding_number: 100000
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 42129630[ms]
+=======================================
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_s1.igraph|../candidate_set/lcc_hprd_s1.cs
+[Loading complete]
+t 50
+Root[0] Recursion_call: 1035 Embedding_number: 504
+Root[1] Recursion_call: 991 Embedding_number: 504
+Root[2] Recursion_call: 991 Embedding_number: 504
+Root[3] Recursion_call: 875 Embedding_number: 504
+Root[4] Recursion_call: 836 Embedding_number: 504
+Root[5] Recursion_call: 836 Embedding_number: 504
+Root[6] Recursion_call: 836 Embedding_number: 504
+Root[7] Recursion_call: 836 Embedding_number: 504
+Root[8] Recursion_call: 836 Embedding_number: 504
+Root[9] Recursion_call: 836 Embedding_number: 504
+Root[10] Recursion_call: 836 Embedding_number: 504
+Root[11] Recursion_call: 836 Embedding_number: 504
+Root[12] Recursion_call: 836 Embedding_number: 504
+Root[13] Recursion_call: 836 Embedding_number: 504
+Root[14] Recursion_call: 836 Embedding_number: 504
+Root[15] Recursion_call: 836 Embedding_number: 504
+Root[16] Recursion_call: 836 Embedding_number: 504
+Root[17] Recursion_call: 836 Embedding_number: 504
+Root[18] Recursion_call: 836 Embedding_number: 504
+Root[19] Recursion_call: 836 Embedding_number: 504
+Root[20] Recursion_call: 836 Embedding_number: 504
+Root[21] Recursion_call: 836 Embedding_number: 504
+Root[22] Recursion_call: 881 Embedding_number: 504
+Root[23] Recursion_call: 1528 Embedding_number: 504
+Root[24] Recursion_call: 836 Embedding_number: 504
+Root[25] Recursion_call: 836 Embedding_number: 504
+Root[26] Recursion_call: 836 Embedding_number: 504
+Root[27] Recursion_call: 836 Embedding_number: 504
+Root[28] Recursion_call: 859 Embedding_number: 504
+Root[29] Recursion_call: 883 Embedding_number: 504
+Root[30] Recursion_call: 859 Embedding_number: 504
+Root[31] Recursion_call: 836 Embedding_number: 504
+Root[32] Recursion_call: 836 Embedding_number: 504
+Root[33] Recursion_call: 836 Embedding_number: 504
+Root[34] Recursion_call: 836 Embedding_number: 504
+Root[35] Recursion_call: 836 Embedding_number: 504
+Root[36] Recursion_call: 836 Embedding_number: 504
+Root[37] Recursion_call: 836 Embedding_number: 504
+Root[38] Recursion_call: 836 Embedding_number: 504
+Root[39] Recursion_call: 836 Embedding_number: 504
+Root[40] Recursion_call: 836 Embedding_number: 504
+Root[41] Recursion_call: 836 Embedding_number: 504
+Root[42] Recursion_call: 911 Embedding_number: 504
+Root[43] Recursion_call: 836 Embedding_number: 504
+Root[44] Recursion_call: 836 Embedding_number: 504
+Root[45] Recursion_call: 836 Embedding_number: 504
+Root[46] Recursion_call: 836 Embedding_number: 504
+Root[47] Recursion_call: 934 Embedding_number: 504
+Root[48] Recursion_call: 836 Embedding_number: 504
+Root[49] Recursion_call: 836 Embedding_number: 504
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 46814[ms]
+=======================================
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_s3.igraph|../candidate_set/lcc_hprd_s3.cs
+[Loading complete]
+t 100
+Root[0] Recursion_call: 104516 Embedding_number: 100000
+Root[1] Recursion_call: 104516 Embedding_number: 100000
+Root[2] Recursion_call: 104516 Embedding_number: 100000
+Root[3] Recursion_call: 104516 Embedding_number: 100000
+Root[4] Recursion_call: 104516 Embedding_number: 100000
+Root[5] Recursion_call: 104516 Embedding_number: 100000
+Root[6] Recursion_call: 104516 Embedding_number: 100000
+Root[7] Recursion_call: 104650 Embedding_number: 100000
+Root[8] Recursion_call: 104516 Embedding_number: 100000
+Root[9] Recursion_call: 104516 Embedding_number: 100000
+Root[10] Recursion_call: 104516 Embedding_number: 100000
+Root[11] Recursion_call: 104516 Embedding_number: 100000
+Root[12] Recursion_call: 104517 Embedding_number: 100000
+Root[13] Recursion_call: 104518 Embedding_number: 100000
+Root[14] Recursion_call: 104516 Embedding_number: 100000
+Root[15] Recursion_call: 104516 Embedding_number: 100000
+Root[16] Recursion_call: 104516 Embedding_number: 100000
+Root[17] Recursion_call: 104516 Embedding_number: 100000
+Root[18] Recursion_call: 104516 Embedding_number: 100000
+Root[19] Recursion_call: 104516 Embedding_number: 100000
+Root[20] Recursion_call: 104516 Embedding_number: 100000
+Root[21] Recursion_call: 104516 Embedding_number: 100000
+Root[22] Recursion_call: 104516 Embedding_number: 100000
+Root[23] Recursion_call: 104516 Embedding_number: 100000
+Root[24] Recursion_call: 104518 Embedding_number: 100000
+Root[25] Recursion_call: 104516 Embedding_number: 100000
+Root[26] Recursion_call: 104516 Embedding_number: 100000
+Root[27] Recursion_call: 104516 Embedding_number: 100000
+Root[28] Recursion_call: 104516 Embedding_number: 100000
+Root[29] Recursion_call: 104516 Embedding_number: 100000
+Root[30] Recursion_call: 104516 Embedding_number: 100000
+Root[31] Recursion_call: 104516 Embedding_number: 100000
+Root[32] Recursion_call: 104516 Embedding_number: 100000
+Root[33] Recursion_call: 104516 Embedding_number: 100000
+Root[34] Recursion_call: 104516 Embedding_number: 100000
+Root[35] Recursion_call: 104507 Embedding_number: 100000
+Root[36] Recursion_call: 104537 Embedding_number: 100000
+Root[37] Recursion_call: 104517 Embedding_number: 100000
+Root[38] Recursion_call: 104517 Embedding_number: 100000
+Root[39] Recursion_call: 104516 Embedding_number: 100000
+Root[40] Recursion_call: 104516 Embedding_number: 100000
+Root[41] Recursion_call: 104516 Embedding_number: 100000
+Root[42] Recursion_call: 104516 Embedding_number: 100000
+Root[43] Recursion_call: 104516 Embedding_number: 100000
+Root[44] Recursion_call: 104516 Embedding_number: 100000
+Root[45] Recursion_call: 104516 Embedding_number: 100000
+Root[46] Recursion_call: 104516 Embedding_number: 100000
+Root[47] Recursion_call: 104516 Embedding_number: 100000
+Root[48] Recursion_call: 104516 Embedding_number: 100000
+Root[49] Recursion_call: 104516 Embedding_number: 100000
+Root[50] Recursion_call: 104516 Embedding_number: 100000
+Root[51] Recursion_call: 104815 Embedding_number: 100000
+Root[52] Recursion_call: 104516 Embedding_number: 100000
+Root[53] Recursion_call: 104516 Embedding_number: 100000
+Root[54] Recursion_call: 104516 Embedding_number: 100000
+Root[55] Recursion_call: 104516 Embedding_number: 100000
+Root[56] Recursion_call: 104516 Embedding_number: 100000
+Root[57] Recursion_call: 104516 Embedding_number: 100000
+Root[58] Recursion_call: 104516 Embedding_number: 100000
+Root[59] Recursion_call: 104516 Embedding_number: 100000
+Root[60] Recursion_call: 104516 Embedding_number: 100000
+Root[61] Recursion_call: 104516 Embedding_number: 100000
+Root[62] Recursion_call: 104516 Embedding_number: 100000
+Root[63] Recursion_call: 104516 Embedding_number: 100000
+Root[64] Recursion_call: 104516 Embedding_number: 100000
+Root[65] Recursion_call: 104516 Embedding_number: 100000
+Root[66] Recursion_call: 104516 Embedding_number: 100000
+Root[67] Recursion_call: 104516 Embedding_number: 100000
+Root[68] Recursion_call: 104516 Embedding_number: 100000
+Root[69] Recursion_call: 104516 Embedding_number: 100000
+Root[70] Recursion_call: 104516 Embedding_number: 100000
+Root[71] Recursion_call: 104516 Embedding_number: 100000
+Root[72] Recursion_call: 104516 Embedding_number: 100000
+Root[73] Recursion_call: 104517 Embedding_number: 100000
+Root[74] Recursion_call: 104516 Embedding_number: 100000
+Root[75] Recursion_call: 104516 Embedding_number: 100000
+Root[76] Recursion_call: 104516 Embedding_number: 100000
+Root[77] Recursion_call: 104516 Embedding_number: 100000
+Root[78] Recursion_call: 104516 Embedding_number: 100000
+Root[79] Recursion_call: 104516 Embedding_number: 100000
+Root[80] Recursion_call: 104516 Embedding_number: 100000
+Root[81] Recursion_call: 118971 Embedding_number: 100000
+Root[82] Recursion_call: 104516 Embedding_number: 100000
+Root[83] Recursion_call: 104516 Embedding_number: 100000
+Root[84] Recursion_call: 104516 Embedding_number: 100000
+Root[85] Recursion_call: 104516 Embedding_number: 100000
+Root[86] Recursion_call: 104516 Embedding_number: 100000
+Root[87] Recursion_call: 104516 Embedding_number: 100000
+Root[88] Recursion_call: 104516 Embedding_number: 100000
+Root[89] Recursion_call: 104517 Embedding_number: 100000
+Root[90] Recursion_call: 104521 Embedding_number: 100000
+Root[91] Recursion_call: 104516 Embedding_number: 100000
+Root[92] Recursion_call: 104516 Embedding_number: 100000
+Root[93] Recursion_call: 104516 Embedding_number: 100000
+Root[94] Recursion_call: 104516 Embedding_number: 100000
+Root[95] Recursion_call: 104516 Embedding_number: 100000
+Root[96] Recursion_call: 104516 Embedding_number: 100000
+Root[97] Recursion_call: 104516 Embedding_number: 100000
+Root[98] Recursion_call: 104578 Embedding_number: 100000
+Root[99] Recursion_call: 104546 Embedding_number: 100000
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 10779432[ms]
+=======================================
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_s5.igraph|../candidate_set/lcc_hprd_s5.cs
+[Loading complete]
+t 150
+Root[0] Recursion_call: 111882 Embedding_number: 100000
+Root[1] Recursion_call: 111882 Embedding_number: 100000
+Root[2] Recursion_call: 111882 Embedding_number: 100000
+Root[3] Recursion_call: 111882 Embedding_number: 100000
+Root[4] Recursion_call: 111882 Embedding_number: 100000
+Root[5] Recursion_call: 111882 Embedding_number: 100000
+Root[6] Recursion_call: 111882 Embedding_number: 100000
+Root[7] Recursion_call: 111882 Embedding_number: 100000
+Root[8] Recursion_call: 112248 Embedding_number: 100000
+Root[9] Recursion_call: 111882 Embedding_number: 100000
+Root[10] Recursion_call: 111882 Embedding_number: 100000
+Root[11] Recursion_call: 111882 Embedding_number: 100000
+Root[12] Recursion_call: 111882 Embedding_number: 100000
+Root[13] Recursion_call: 111882 Embedding_number: 100000
+Root[14] Recursion_call: 111882 Embedding_number: 100000
+Root[15] Recursion_call: 111882 Embedding_number: 100000
+Root[16] Recursion_call: 111882 Embedding_number: 100000
+Root[17] Recursion_call: 111882 Embedding_number: 100000
+Root[18] Recursion_call: 111882 Embedding_number: 100000
+Root[19] Recursion_call: 111882 Embedding_number: 100000
+Root[20] Recursion_call: 111882 Embedding_number: 100000
+Root[21] Recursion_call: 111882 Embedding_number: 100000
+Root[22] Recursion_call: 111882 Embedding_number: 100000
+Root[23] Recursion_call: 111882 Embedding_number: 100000
+Root[24] Recursion_call: 111882 Embedding_number: 100000
+Root[25] Recursion_call: 111882 Embedding_number: 100000
+Root[26] Recursion_call: 111882 Embedding_number: 100000
+Root[27] Recursion_call: 111882 Embedding_number: 100000
+Root[28] Recursion_call: 111882 Embedding_number: 100000
+Root[29] Recursion_call: 111882 Embedding_number: 100000
+Root[30] Recursion_call: 111882 Embedding_number: 100000
+Root[31] Recursion_call: 111882 Embedding_number: 100000
+Root[32] Recursion_call: 111882 Embedding_number: 100000
+Root[33] Recursion_call: 111882 Embedding_number: 100000
+Root[34] Recursion_call: 111882 Embedding_number: 100000
+Root[35] Recursion_call: 111882 Embedding_number: 100000
+Root[36] Recursion_call: 111882 Embedding_number: 100000
+Root[37] Recursion_call: 111882 Embedding_number: 100000
+Root[38] Recursion_call: 111882 Embedding_number: 100000
+Root[39] Recursion_call: 111882 Embedding_number: 100000
+Root[40] Recursion_call: 111882 Embedding_number: 100000
+Root[41] Recursion_call: 111882 Embedding_number: 100000
+Root[42] Recursion_call: 111882 Embedding_number: 100000
+Root[43] Recursion_call: 111882 Embedding_number: 100000
+Root[44] Recursion_call: 111882 Embedding_number: 100000
+Root[45] Recursion_call: 111882 Embedding_number: 100000
+Root[46] Recursion_call: 111882 Embedding_number: 100000
+Root[47] Recursion_call: 111882 Embedding_number: 100000
+Root[48] Recursion_call: 111882 Embedding_number: 100000
+Root[49] Recursion_call: 111882 Embedding_number: 100000
+Root[50] Recursion_call: 111882 Embedding_number: 100000
+Root[51] Recursion_call: 111882 Embedding_number: 100000
+Root[52] Recursion_call: 111882 Embedding_number: 100000
+Root[53] Recursion_call: 111882 Embedding_number: 100000
+Root[54] Recursion_call: 111882 Embedding_number: 100000
+Root[55] Recursion_call: 230436 Embedding_number: 100000
+Root[56] Recursion_call: 111882 Embedding_number: 100000
+Root[57] Recursion_call: 111882 Embedding_number: 100000
+Root[58] Recursion_call: 111882 Embedding_number: 100000
+Root[59] Recursion_call: 111882 Embedding_number: 100000
+Root[60] Recursion_call: 111882 Embedding_number: 100000
+Root[61] Recursion_call: 111882 Embedding_number: 100000
+Root[62] Recursion_call: 111882 Embedding_number: 100000
+Root[63] Recursion_call: 111882 Embedding_number: 100000
+Root[64] Recursion_call: 111882 Embedding_number: 100000
+Root[65] Recursion_call: 111882 Embedding_number: 100000
+Root[66] Recursion_call: 111882 Embedding_number: 100000
+Root[67] Recursion_call: 111882 Embedding_number: 100000
+Root[68] Recursion_call: 111882 Embedding_number: 100000
+Root[69] Recursion_call: 111882 Embedding_number: 100000
+Root[70] Recursion_call: 111882 Embedding_number: 100000
+Root[71] Recursion_call: 111882 Embedding_number: 100000
+Root[72] Recursion_call: 111882 Embedding_number: 100000
+Root[73] Recursion_call: 111882 Embedding_number: 100000
+Root[74] Recursion_call: 111882 Embedding_number: 100000
+Root[75] Recursion_call: 111882 Embedding_number: 100000
+Root[76] Recursion_call: 111882 Embedding_number: 100000
+Root[77] Recursion_call: 111882 Embedding_number: 100000
+Root[78] Recursion_call: 111882 Embedding_number: 100000
+Root[79] Recursion_call: 111882 Embedding_number: 100000
+Root[80] Recursion_call: 111882 Embedding_number: 100000
+Root[81] Recursion_call: 111882 Embedding_number: 100000
+Root[82] Recursion_call: 109774 Embedding_number: 100000
+Root[83] Recursion_call: 111882 Embedding_number: 100000
+Root[84] Recursion_call: 110349 Embedding_number: 100000
+Root[85] Recursion_call: 110352 Embedding_number: 100000
+Root[86] Recursion_call: 107774 Embedding_number: 100000
+Root[87] Recursion_call: 107776 Embedding_number: 100000
+Root[88] Recursion_call: 107777 Embedding_number: 100000
+Root[89] Recursion_call: 125848 Embedding_number: 100000
+Root[90] Recursion_call: 111561 Embedding_number: 100000
+Root[91] Recursion_call: 111561 Embedding_number: 100000
+Root[92] Recursion_call: 111561 Embedding_number: 100000
+Root[93] Recursion_call: 111561 Embedding_number: 100000
+Root[94] Recursion_call: 111561 Embedding_number: 100000
+Root[95] Recursion_call: 111561 Embedding_number: 100000
+Root[96] Recursion_call: 111561 Embedding_number: 100000
+Root[97] Recursion_call: 111561 Embedding_number: 100000
+Root[98] Recursion_call: 111561 Embedding_number: 100000
+Root[99] Recursion_call: 111882 Embedding_number: 100000
+Root[100] Recursion_call: 111882 Embedding_number: 100000
+Root[101] Recursion_call: 111882 Embedding_number: 100000
+Root[102] Recursion_call: 111882 Embedding_number: 100000
+Root[103] Recursion_call: 111882 Embedding_number: 100000
+Root[104] Recursion_call: 111882 Embedding_number: 100000
+Root[105] Recursion_call: 111882 Embedding_number: 100000
+Root[106] Recursion_call: 111882 Embedding_number: 100000
+Root[107] Recursion_call: 111882 Embedding_number: 100000
+Root[108] Recursion_call: 111882 Embedding_number: 100000
+Root[109] Recursion_call: 113590 Embedding_number: 100000
+Root[110] Recursion_call: 111882 Embedding_number: 100000
+Root[111] Recursion_call: 111882 Embedding_number: 100000
+Root[112] Recursion_call: 111882 Embedding_number: 100000
+Root[113] Recursion_call: 111882 Embedding_number: 100000
+Root[114] Recursion_call: 111882 Embedding_number: 100000
+Root[115] Recursion_call: 111882 Embedding_number: 100000
+Root[116] Recursion_call: 111882 Embedding_number: 100000
+Root[117] Recursion_call: 111882 Embedding_number: 100000
+Root[118] Recursion_call: 111882 Embedding_number: 100000
+Root[119] Recursion_call: 111882 Embedding_number: 100000
+Root[120] Recursion_call: 111882 Embedding_number: 100000
+Root[121] Recursion_call: 111882 Embedding_number: 100000
+Root[122] Recursion_call: 111882 Embedding_number: 100000
+Root[123] Recursion_call: 111882 Embedding_number: 100000
+Root[124] Recursion_call: 111882 Embedding_number: 100000
+Root[125] Recursion_call: 111882 Embedding_number: 100000
+Root[126] Recursion_call: 111882 Embedding_number: 100000
+Root[127] Recursion_call: 111882 Embedding_number: 100000
+Root[128] Recursion_call: 111882 Embedding_number: 100000
+Root[129] Recursion_call: 111882 Embedding_number: 100000
+Root[130] Recursion_call: 111882 Embedding_number: 100000
+Root[131] Recursion_call: 111882 Embedding_number: 100000
+Root[132] Recursion_call: 111882 Embedding_number: 100000
+Root[133] Recursion_call: 111882 Embedding_number: 100000
+Root[134] Recursion_call: 111882 Embedding_number: 100000
+Root[135] Recursion_call: 111882 Embedding_number: 100000
+Root[136] Recursion_call: 111882 Embedding_number: 100000
+Root[137] Recursion_call: 111882 Embedding_number: 100000
+Root[138] Recursion_call: 111882 Embedding_number: 100000
+Root[139] Recursion_call: 111882 Embedding_number: 100000
+Root[140] Recursion_call: 111882 Embedding_number: 100000
+Root[141] Recursion_call: 111882 Embedding_number: 100000
+Root[142] Recursion_call: 111882 Embedding_number: 100000
+Root[143] Recursion_call: 111882 Embedding_number: 100000
+Root[144] Recursion_call: 111882 Embedding_number: 100000
+Root[145] Recursion_call: 114345 Embedding_number: 100000
+Root[146] Recursion_call: 111882 Embedding_number: 100000
+Root[147] Recursion_call: 111882 Embedding_number: 100000
+Root[148] Recursion_call: 111882 Embedding_number: 100000
+Root[149] Recursion_call: 111882 Embedding_number: 100000
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 27322369[ms]
+=======================================
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_s8.igraph|../candidate_set/lcc_hprd_s8.cs
+[Loading complete]
+t 200
+Root[0] Recursion_call: 106376 Embedding_number: 100000
+Root[1] Recursion_call: 106442 Embedding_number: 100000
+Root[2] Recursion_call: 106360 Embedding_number: 100000
+Root[3] Recursion_call: 106350 Embedding_number: 100000
+Root[4] Recursion_call: 106349 Embedding_number: 100000
+Root[5] Recursion_call: 106349 Embedding_number: 100000
+Root[6] Recursion_call: 106349 Embedding_number: 100000
+Root[7] Recursion_call: 106349 Embedding_number: 100000
+Root[8] Recursion_call: 106349 Embedding_number: 100000
+Root[9] Recursion_call: 106349 Embedding_number: 100000
+Root[10] Recursion_call: 106349 Embedding_number: 100000
+Root[11] Recursion_call: 106349 Embedding_number: 100000
+Root[12] Recursion_call: 106349 Embedding_number: 100000
+Root[13] Recursion_call: 106349 Embedding_number: 100000
+Root[14] Recursion_call: 106349 Embedding_number: 100000
+Root[15] Recursion_call: 106349 Embedding_number: 100000
+Root[16] Recursion_call: 106349 Embedding_number: 100000
+Root[17] Recursion_call: 106349 Embedding_number: 100000
+Root[18] Recursion_call: 106349 Embedding_number: 100000
+Root[19] Recursion_call: 106349 Embedding_number: 100000
+Root[20] Recursion_call: 106349 Embedding_number: 100000
+Root[21] Recursion_call: 106349 Embedding_number: 100000
+Root[22] Recursion_call: 106439 Embedding_number: 100000
+Root[23] Recursion_call: 106349 Embedding_number: 100000
+Root[24] Recursion_call: 106349 Embedding_number: 100000
+Root[25] Recursion_call: 106349 Embedding_number: 100000
+Root[26] Recursion_call: 106349 Embedding_number: 100000
+Root[27] Recursion_call: 106350 Embedding_number: 100000
+Root[28] Recursion_call: 106351 Embedding_number: 100000
+Root[29] Recursion_call: 106349 Embedding_number: 100000
+Root[30] Recursion_call: 106349 Embedding_number: 100000
+Root[31] Recursion_call: 115293 Embedding_number: 100000
+Root[32] Recursion_call: 106349 Embedding_number: 100000
+Root[33] Recursion_call: 106349 Embedding_number: 100000
+Root[34] Recursion_call: 106349 Embedding_number: 100000
+Root[35] Recursion_call: 106349 Embedding_number: 100000
+Root[36] Recursion_call: 106349 Embedding_number: 100000
+Root[37] Recursion_call: 106349 Embedding_number: 100000
+Root[38] Recursion_call: 106349 Embedding_number: 100000
+Root[39] Recursion_call: 106349 Embedding_number: 100000
+Root[40] Recursion_call: 106349 Embedding_number: 100000
+Root[41] Recursion_call: 106349 Embedding_number: 100000
+Root[42] Recursion_call: 106349 Embedding_number: 100000
+Root[43] Recursion_call: 106349 Embedding_number: 100000
+Root[44] Recursion_call: 106349 Embedding_number: 100000
+Root[45] Recursion_call: 106349 Embedding_number: 100000
+Root[46] Recursion_call: 106349 Embedding_number: 100000
+Root[47] Recursion_call: 106349 Embedding_number: 100000
+Root[48] Recursion_call: 106349 Embedding_number: 100000
+Root[49] Recursion_call: 106349 Embedding_number: 100000
+Root[50] Recursion_call: 106349 Embedding_number: 100000
+Root[51] Recursion_call: 106349 Embedding_number: 100000
+Root[52] Recursion_call: 106349 Embedding_number: 100000
+Root[53] Recursion_call: 106349 Embedding_number: 100000
+Root[54] Recursion_call: 106349 Embedding_number: 100000
+Root[55] Recursion_call: 106349 Embedding_number: 100000
+Root[56] Recursion_call: 106349 Embedding_number: 100000
+Root[57] Recursion_call: 106351 Embedding_number: 100000
+Root[58] Recursion_call: 106349 Embedding_number: 100000
+Root[59] Recursion_call: 106349 Embedding_number: 100000
+Root[60] Recursion_call: 106351 Embedding_number: 100000
+Root[61] Recursion_call: 106349 Embedding_number: 100000
+Root[62] Recursion_call: 106349 Embedding_number: 100000
+Root[63] Recursion_call: 106348 Embedding_number: 100000
+Root[64] Recursion_call: 106839 Embedding_number: 100000
+Root[65] Recursion_call: 106349 Embedding_number: 100000
+Root[66] Recursion_call: 106349 Embedding_number: 100000
+Root[67] Recursion_call: 106349 Embedding_number: 100000
+Root[68] Recursion_call: 106349 Embedding_number: 100000
+Root[69] Recursion_call: 106349 Embedding_number: 100000
+Root[70] Recursion_call: 106349 Embedding_number: 100000
+Root[71] Recursion_call: 106349 Embedding_number: 100000
+Root[72] Recursion_call: 106408 Embedding_number: 100000
+Root[73] Recursion_call: 106349 Embedding_number: 100000
+Root[74] Recursion_call: 106349 Embedding_number: 100000
+Root[75] Recursion_call: 106349 Embedding_number: 100000
+Root[76] Recursion_call: 106349 Embedding_number: 100000
+Root[77] Recursion_call: 106349 Embedding_number: 100000
+Root[78] Recursion_call: 106349 Embedding_number: 100000
+Root[79] Recursion_call: 106349 Embedding_number: 100000
+Root[80] Recursion_call: 106349 Embedding_number: 100000
+Root[81] Recursion_call: 106349 Embedding_number: 100000
+Root[82] Recursion_call: 106349 Embedding_number: 100000
+Root[83] Recursion_call: 106349 Embedding_number: 100000
+Root[84] Recursion_call: 106349 Embedding_number: 100000
+Root[85] Recursion_call: 106349 Embedding_number: 100000
+Root[86] Recursion_call: 106349 Embedding_number: 100000
+Root[87] Recursion_call: 106349 Embedding_number: 100000
+Root[88] Recursion_call: 106349 Embedding_number: 100000
+Root[89] Recursion_call: 106349 Embedding_number: 100000
+Root[90] Recursion_call: 106349 Embedding_number: 100000
+Root[91] Recursion_call: 106349 Embedding_number: 100000
+Root[92] Recursion_call: 106349 Embedding_number: 100000
+Root[93] Recursion_call: 106349 Embedding_number: 100000
+Root[94] Recursion_call: 106349 Embedding_number: 100000
+Root[95] Recursion_call: 106349 Embedding_number: 100000
+Root[96] Recursion_call: 106349 Embedding_number: 100000
+Root[97] Recursion_call: 106349 Embedding_number: 100000
+Root[98] Recursion_call: 106349 Embedding_number: 100000
+Root[99] Recursion_call: 106349 Embedding_number: 100000
+Root[100] Recursion_call: 106349 Embedding_number: 100000
+Root[101] Recursion_call: 106349 Embedding_number: 100000
+Root[102] Recursion_call: 106349 Embedding_number: 100000
+Root[103] Recursion_call: 106349 Embedding_number: 100000
+Root[104] Recursion_call: 106349 Embedding_number: 100000
+Root[105] Recursion_call: 106349 Embedding_number: 100000
+Root[106] Recursion_call: 106349 Embedding_number: 100000
+Root[107] Recursion_call: 106349 Embedding_number: 100000
+Root[108] Recursion_call: 106349 Embedding_number: 100000
+Root[109] Recursion_call: 106349 Embedding_number: 100000
+Root[110] Recursion_call: 106349 Embedding_number: 100000
+Root[111] Recursion_call: 106349 Embedding_number: 100000
+Root[112] Recursion_call: 106349 Embedding_number: 100000
+Root[113] Recursion_call: 106349 Embedding_number: 100000
+Root[114] Recursion_call: 106349 Embedding_number: 100000
+Root[115] Recursion_call: 106349 Embedding_number: 100000
+Root[116] Recursion_call: 106349 Embedding_number: 100000
+Root[117] Recursion_call: 106349 Embedding_number: 100000
+Root[118] Recursion_call: 106349 Embedding_number: 100000
+Root[119] Recursion_call: 106349 Embedding_number: 100000
+Root[120] Recursion_call: 106349 Embedding_number: 100000
+Root[121] Recursion_call: 106349 Embedding_number: 100000
+Root[122] Recursion_call: 106349 Embedding_number: 100000
+Root[123] Recursion_call: 106348 Embedding_number: 100000
+Root[124] Recursion_call: 106350 Embedding_number: 100000
+Root[125] Recursion_call: 106349 Embedding_number: 100000
+Root[126] Recursion_call: 106349 Embedding_number: 100000
+Root[127] Recursion_call: 106352 Embedding_number: 100000
+Root[128] Recursion_call: 106349 Embedding_number: 100000
+Root[129] Recursion_call: 106349 Embedding_number: 100000
+Root[130] Recursion_call: 106349 Embedding_number: 100000
+Root[131] Recursion_call: 106349 Embedding_number: 100000
+Root[132] Recursion_call: 106349 Embedding_number: 100000
+Root[133] Recursion_call: 106349 Embedding_number: 100000
+Root[134] Recursion_call: 106349 Embedding_number: 100000
+Root[135] Recursion_call: 106349 Embedding_number: 100000
+Root[136] Recursion_call: 106349 Embedding_number: 100000
+Root[137] Recursion_call: 106349 Embedding_number: 100000
+Root[138] Recursion_call: 106349 Embedding_number: 100000
+Root[139] Recursion_call: 106349 Embedding_number: 100000
+Root[140] Recursion_call: 106349 Embedding_number: 100000
+Root[141] Recursion_call: 106349 Embedding_number: 100000
+Root[142] Recursion_call: 106349 Embedding_number: 100000
+Root[143] Recursion_call: 106349 Embedding_number: 100000
+Root[144] Recursion_call: 106349 Embedding_number: 100000
+Root[145] Recursion_call: 106349 Embedding_number: 100000
+Root[146] Recursion_call: 106349 Embedding_number: 100000
+Root[147] Recursion_call: 106349 Embedding_number: 100000
+Root[148] Recursion_call: 106349 Embedding_number: 100000
+Root[149] Recursion_call: 106349 Embedding_number: 100000
+Root[150] Recursion_call: 106349 Embedding_number: 100000
+Root[151] Recursion_call: 106349 Embedding_number: 100000
+Root[152] Recursion_call: 106349 Embedding_number: 100000
+Root[153] Recursion_call: 106349 Embedding_number: 100000
+Root[154] Recursion_call: 106349 Embedding_number: 100000
+Root[155] Recursion_call: 106349 Embedding_number: 100000
+Root[156] Recursion_call: 106349 Embedding_number: 100000
+Root[157] Recursion_call: 106932 Embedding_number: 100000
+Root[158] Recursion_call: 106349 Embedding_number: 100000
+Root[159] Recursion_call: 106347 Embedding_number: 100000
+Root[160] Recursion_call: 106347 Embedding_number: 100000
+Root[161] Recursion_call: 106347 Embedding_number: 100000
+Root[162] Recursion_call: 106347 Embedding_number: 100000
+Root[163] Recursion_call: 106347 Embedding_number: 100000
+Root[164] Recursion_call: 106347 Embedding_number: 100000
+Root[165] Recursion_call: 106347 Embedding_number: 100000
+Root[166] Recursion_call: 106347 Embedding_number: 100000
+Root[167] Recursion_call: 106347 Embedding_number: 100000
+Root[168] Recursion_call: 106347 Embedding_number: 100000
+Root[169] Recursion_call: 106349 Embedding_number: 100000
+Root[170] Recursion_call: 106349 Embedding_number: 100000
+Root[171] Recursion_call: 106349 Embedding_number: 100000
+Root[172] Recursion_call: 106344 Embedding_number: 100000
+Root[173] Recursion_call: 106344 Embedding_number: 100000
+Root[174] Recursion_call: 106349 Embedding_number: 100000
+Root[175] Recursion_call: 106349 Embedding_number: 100000
+Root[176] Recursion_call: 106349 Embedding_number: 100000
+Root[177] Recursion_call: 106349 Embedding_number: 100000
+Root[178] Recursion_call: 106349 Embedding_number: 100000
+Root[179] Recursion_call: 106349 Embedding_number: 100000
+Root[180] Recursion_call: 106349 Embedding_number: 100000
+Root[181] Recursion_call: 106359 Embedding_number: 100000
+Root[182] Recursion_call: 106349 Embedding_number: 100000
+Root[183] Recursion_call: 106349 Embedding_number: 100000
+Root[184] Recursion_call: 106349 Embedding_number: 100000
+Root[185] Recursion_call: 106349 Embedding_number: 100000
+Root[186] Recursion_call: 106349 Embedding_number: 100000
+Root[187] Recursion_call: 106349 Embedding_number: 100000
+Root[188] Recursion_call: 106349 Embedding_number: 100000
+Root[189] Recursion_call: 106349 Embedding_number: 100000
+Root[190] Recursion_call: 106349 Embedding_number: 100000
+Root[191] Recursion_call: 106349 Embedding_number: 100000
+Root[192] Recursion_call: 106349 Embedding_number: 100000
+Root[193] Recursion_call: 106681 Embedding_number: 100000
+Root[194] Recursion_call: 106511 Embedding_number: 100000
+Root[195] Recursion_call: 106394 Embedding_number: 100000
+Root[196] Recursion_call: 106377 Embedding_number: 100000
+Root[197] Recursion_call: 106388 Embedding_number: 100000
+Root[198] Recursion_call: 106482 Embedding_number: 100000
+Root[199] Recursion_call: 106572 Embedding_number: 100000
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 39717457[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_n1.igraph|../candidate_set/lcc_human_n1.cs
+[Loading complete]
+t 10
+Root[0] Recursion_call: 101795 Embedding_number: 100000
+Root[1] Recursion_call: 101717 Embedding_number: 100000
+Root[2] Recursion_call: 101789 Embedding_number: 100000
+Root[3] Recursion_call: 101706 Embedding_number: 100000
+Root[4] Recursion_call: 101497 Embedding_number: 100000
+Root[5] Recursion_call: 101789 Embedding_number: 100000
+Root[6] Recursion_call: 101703 Embedding_number: 100000
+Root[7] Recursion_call: 101756 Embedding_number: 100000
+Root[8] Recursion_call: 101850 Embedding_number: 100000
+Root[9] Recursion_call: 101756 Embedding_number: 100000
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 337696[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_n3.igraph|../candidate_set/lcc_human_n3.cs
+[Loading complete]
+t 20
+Root[0] Recursion_call: 584286 Embedding_number: 100000
+Root[1] Recursion_call: 584280 Embedding_number: 100000
+Root[2] Recursion_call: 584286 Embedding_number: 100000
+Root[3] Recursion_call: 584286 Embedding_number: 100000
+Root[4] Recursion_call: 584281 Embedding_number: 100000
+Root[5] Recursion_call: 584288 Embedding_number: 100000
+Root[6] Recursion_call: 584294 Embedding_number: 100000
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[7] Recursion_call: 10000209 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[8] Recursion_call: 10000233 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[9] Recursion_call: 10000233 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[10] Recursion_call: 10000233 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[11] Recursion_call: 10000235 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[12] Recursion_call: 10000233 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[13] Recursion_call: 10000233 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[14] Recursion_call: 10000235 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[15] Recursion_call: 10000233 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[16] Recursion_call: 10000080 Embedding_number: 0
+Root[17] Recursion_call: 587054 Embedding_number: 100000
+Root[18] Recursion_call: 584170 Embedding_number: 100000
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[19] Recursion_call: 10000054 Embedding_number: 0
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 587347495[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_n5.igraph|../candidate_set/lcc_human_n5.cs
+[Loading complete]
+t 30
+Root[0] Recursion_call: 102590 Embedding_number: 100000
+Root[1] Recursion_call: 102408 Embedding_number: 100000
+Root[2] Recursion_call: 102408 Embedding_number: 100000
+Root[3] Recursion_call: 102418 Embedding_number: 100000
+Root[4] Recursion_call: 102404 Embedding_number: 100000
+Root[5] Recursion_call: 102427 Embedding_number: 100000
+Root[6] Recursion_call: 102404 Embedding_number: 100000
+Root[7] Recursion_call: 102404 Embedding_number: 100000
+Root[8] Recursion_call: 102412 Embedding_number: 100000
+Root[9] Recursion_call: 102412 Embedding_number: 100000
+Root[10] Recursion_call: 102404 Embedding_number: 100000
+Root[11] Recursion_call: 102404 Embedding_number: 100000
+Root[12] Recursion_call: 102404 Embedding_number: 100000
+Root[13] Recursion_call: 102404 Embedding_number: 100000
+Root[14] Recursion_call: 102404 Embedding_number: 100000
+Root[15] Recursion_call: 102411 Embedding_number: 100000
+Root[16] Recursion_call: 102404 Embedding_number: 100000
+Root[17] Recursion_call: 102411 Embedding_number: 100000
+Root[18] Recursion_call: 102415 Embedding_number: 100000
+Root[19] Recursion_call: 102409 Embedding_number: 100000
+Root[20] Recursion_call: 102408 Embedding_number: 100000
+Root[21] Recursion_call: 102401 Embedding_number: 100000
+Root[22] Recursion_call: 102408 Embedding_number: 100000
+Root[23] Recursion_call: 102428 Embedding_number: 100000
+Root[24] Recursion_call: 102408 Embedding_number: 100000
+Root[25] Recursion_call: 102407 Embedding_number: 100000
+Root[26] Recursion_call: 102407 Embedding_number: 100000
+Root[27] Recursion_call: 102398 Embedding_number: 100000
+Root[28] Recursion_call: 101793 Embedding_number: 100000
+Root[29] Recursion_call: 101793 Embedding_number: 100000
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 1488644[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_n8.igraph|../candidate_set/lcc_human_n8.cs
+[Loading complete]
+t 40
+Root[0] Recursion_call: 103143 Embedding_number: 100000
+Root[1] Recursion_call: 103143 Embedding_number: 100000
+Root[2] Recursion_call: 103143 Embedding_number: 100000
+Root[3] Recursion_call: 103143 Embedding_number: 100000
+Root[4] Recursion_call: 103143 Embedding_number: 100000
+Root[5] Recursion_call: 103150 Embedding_number: 100000
+Root[6] Recursion_call: 103143 Embedding_number: 100000
+Root[7] Recursion_call: 103127 Embedding_number: 100000
+Root[8] Recursion_call: 103143 Embedding_number: 100000
+Root[9] Recursion_call: 103143 Embedding_number: 100000
+Root[10] Recursion_call: 103143 Embedding_number: 100000
+Root[11] Recursion_call: 103145 Embedding_number: 100000
+Root[12] Recursion_call: 103144 Embedding_number: 100000
+Root[13] Recursion_call: 103145 Embedding_number: 100000
+Root[14] Recursion_call: 103144 Embedding_number: 100000
+Root[15] Recursion_call: 103144 Embedding_number: 100000
+Root[16] Recursion_call: 103145 Embedding_number: 100000
+Root[17] Recursion_call: 103144 Embedding_number: 100000
+Root[18] Recursion_call: 103145 Embedding_number: 100000
+Root[19] Recursion_call: 103138 Embedding_number: 100000
+Root[20] Recursion_call: 103152 Embedding_number: 100000
+Root[21] Recursion_call: 103168 Embedding_number: 100000
+Root[22] Recursion_call: 103149 Embedding_number: 100000
+Root[23] Recursion_call: 103147 Embedding_number: 100000
+Root[24] Recursion_call: 103144 Embedding_number: 100000
+Root[25] Recursion_call: 103147 Embedding_number: 100000
+Root[26] Recursion_call: 103145 Embedding_number: 100000
+Root[27] Recursion_call: 103144 Embedding_number: 100000
+Root[28] Recursion_call: 103143 Embedding_number: 100000
+Root[29] Recursion_call: 103145 Embedding_number: 100000
+Root[30] Recursion_call: 103152 Embedding_number: 100000
+Root[31] Recursion_call: 103144 Embedding_number: 100000
+Root[32] Recursion_call: 103142 Embedding_number: 100000
+Root[33] Recursion_call: 103142 Embedding_number: 100000
+Root[34] Recursion_call: 103095 Embedding_number: 100000
+Root[35] Recursion_call: 103160 Embedding_number: 100000
+Root[36] Recursion_call: 103144 Embedding_number: 100000
+Root[37] Recursion_call: 103141 Embedding_number: 100000
+Root[38] Recursion_call: 103142 Embedding_number: 100000
+Root[39] Recursion_call: 103147 Embedding_number: 100000
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 3717816[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_s1.igraph|../candidate_set/lcc_human_s1.cs
+[Loading complete]
+t 10
+Root[0] Recursion_call: 102257 Embedding_number: 100000
+Root[1] Recursion_call: 102148 Embedding_number: 100000
+Root[2] Recursion_call: 102257 Embedding_number: 100000
+Root[3] Recursion_call: 102148 Embedding_number: 100000
+Root[4] Recursion_call: 102148 Embedding_number: 100000
+Root[5] Recursion_call: 102437 Embedding_number: 100000
+Root[6] Recursion_call: 102426 Embedding_number: 100000
+Root[7] Recursion_call: 107714 Embedding_number: 100000
+Root[8] Recursion_call: 105977 Embedding_number: 100000
+Root[9] Recursion_call: 107714 Embedding_number: 100000
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 334168[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_s3.igraph|../candidate_set/lcc_human_s3.cs
+[Loading complete]
+t 20
+Root[0] Recursion_call: 133283 Embedding_number: 100000
+Root[1] Recursion_call: 133277 Embedding_number: 100000
+Root[2] Recursion_call: 133279 Embedding_number: 100000
+Root[3] Recursion_call: 123896 Embedding_number: 100000
+Root[4] Recursion_call: 123894 Embedding_number: 100000
+Root[5] Recursion_call: 123896 Embedding_number: 100000
+Root[6] Recursion_call: 123950 Embedding_number: 100000
+Root[7] Recursion_call: 124016 Embedding_number: 100000
+Root[8] Recursion_call: 142001 Embedding_number: 100000
+Root[9] Recursion_call: 114014 Embedding_number: 100000
+Root[10] Recursion_call: 111587 Embedding_number: 100000
+Root[11] Recursion_call: 112087 Embedding_number: 100000
+Root[12] Recursion_call: 111420 Embedding_number: 100000
+Root[13] Recursion_call: 112086 Embedding_number: 100000
+Root[14] Recursion_call: 113955 Embedding_number: 100000
+Root[15] Recursion_call: 115706 Embedding_number: 100000
+Root[16] Recursion_call: 115500 Embedding_number: 100000
+Root[17] Recursion_call: 116533 Embedding_number: 100000
+Root[18] Recursion_call: 104167 Embedding_number: 100000
+Root[19] Recursion_call: 104182 Embedding_number: 100000
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 1685445[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_s5.igraph|../candidate_set/lcc_human_s5.cs
+[Loading complete]
+t 30
+Root[0] Recursion_call: 105121 Embedding_number: 100000
+Root[1] Recursion_call: 105730 Embedding_number: 100000
+Root[2] Recursion_call: 106477 Embedding_number: 100000
+Root[3] Recursion_call: 102407 Embedding_number: 100000
+Root[4] Recursion_call: 102406 Embedding_number: 100000
+Root[5] Recursion_call: 102428 Embedding_number: 100000
+Root[6] Recursion_call: 102406 Embedding_number: 100000
+Root[7] Recursion_call: 102406 Embedding_number: 100000
+Root[8] Recursion_call: 102411 Embedding_number: 100000
+Root[9] Recursion_call: 102689 Embedding_number: 100000
+Root[10] Recursion_call: 102405 Embedding_number: 100000
+Root[11] Recursion_call: 102406 Embedding_number: 100000
+Root[12] Recursion_call: 102406 Embedding_number: 100000
+Root[13] Recursion_call: 102406 Embedding_number: 100000
+Root[14] Recursion_call: 102406 Embedding_number: 100000
+Root[15] Recursion_call: 102415 Embedding_number: 100000
+Root[16] Recursion_call: 102407 Embedding_number: 100000
+Root[17] Recursion_call: 102413 Embedding_number: 100000
+Root[18] Recursion_call: 102429 Embedding_number: 100000
+Root[19] Recursion_call: 102436 Embedding_number: 100000
+Root[20] Recursion_call: 102412 Embedding_number: 100000
+Root[21] Recursion_call: 102400 Embedding_number: 100000
+Root[22] Recursion_call: 102412 Embedding_number: 100000
+Root[23] Recursion_call: 102415 Embedding_number: 100000
+Root[24] Recursion_call: 102412 Embedding_number: 100000
+Root[25] Recursion_call: 102440 Embedding_number: 100000
+Root[26] Recursion_call: 102400 Embedding_number: 100000
+Root[27] Recursion_call: 102401 Embedding_number: 100000
+Root[28] Recursion_call: 101799 Embedding_number: 100000
+Root[29] Recursion_call: 103724 Embedding_number: 100000
+Embedding #: 0 Recursion_call #:0
+Time Elapsed: 1308490[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_s8.igraph|../candidate_set/lcc_human_s8.cs
+[Loading complete]
+t 40
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[0] Recursion_call: 10000988 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[1] Recursion_call: 10000988 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[2] Recursion_call: 10000988 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[3] Recursion_call: 10000988 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[4] Recursion_call: 10000988 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[5] Recursion_call: 10000993 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[6] Recursion_call: 10000981 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[7] Recursion_call: 10000981 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[8] Recursion_call: 10000991 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[9] Recursion_call: 10000627 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[10] Recursion_call: 10000521 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[11] Recursion_call: 10000520 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[12] Recursion_call: 10000550 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[13] Recursion_call: 10000557 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[14] Recursion_call: 10000222 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[15] Recursion_call: 10000535 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[16] Recursion_call: 10000535 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[17] Recursion_call: 10000687 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[18] Recursion_call: 10000584 Embedding_number: 0
+Root[19] Recursion_call: 102329 Embedding_number: 100000
+Root[20] Recursion_call: 102339 Embedding_number: 100000
+Root[21] Recursion_call: 102346 Embedding_number: 100000
+Root[22] Recursion_call: 102329 Embedding_number: 100000
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[23] Recursion_call: 10000506 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
+Recursion_call: 10000000 Embedding_number: 0
+Root[24] Recursion_call: 10000525 Embedding_number: 0
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Recursion_call: 3000000 Embedding_number: 0
+Recursion_call: 4000000 Embedding_number: 0
+Recursion_call: 5000000 Embedding_number: 0
+Recursion_call: 6000000 Embedding_number: 0
+Recursion_call: 7000000 Embedding_number: 0
+Recursion_call: 8000000 Embedding_number: 0
+Recursion_call: 9000000 Embedding_number: 0
