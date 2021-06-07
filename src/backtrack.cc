@@ -63,8 +63,8 @@ void Backtrack::RootAnalysis(const Graph& data, const Graph& query, const Candid
 
 void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const CandidateSet& cs, 
                             std::vector<VertexPair>& partial_embedding){
-    //PrintEmbedding(partial_embedding);
-    //printExtendable();
+    PrintEmbedding(partial_embedding);
+    printExtendable();
     recursion_call += 1;
     if(recursion_call % 1000000 == 0) std::cout << "Recursion_call: " << recursion_call  << " Embedding_number: " << embedding_number << std::endl;
     if(embedding_number >= 100000) return;
@@ -73,7 +73,7 @@ void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const Candida
     if(partial_embedding.size() == query.GetNumVertices()){
         //Check(data, query, cs, partial_embedding);
         embedding_number += 1;
-        // PrintPath(partial_embedding);
+        //PrintPath(partial_embedding);
         return;
     }
 
@@ -278,7 +278,7 @@ Output Functions
 
 void Backtrack::PrintPath(std::vector<VertexPair> partial_embedding){
     // Sort according to the pair.first
-    std::sort(partial_embedding.begin(), partial_embedding.end(), VertexCompare);
+    //std::sort(partial_embedding.begin(), partial_embedding.end(), VertexCompare);
     std::cout << "[" << embedding_number << "]";
     std::cout << "a";
     for(auto pair: partial_embedding){
