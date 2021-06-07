@@ -3,6 +3,3 @@
 /home/vagrant/algorithm/subgraph_match_challenge/build/main/CMakeFiles/rebuild_cache.dir
 /home/vagrant/algorithm/subgraph_match_challenge/build/main/CMakeFiles/edit_cache.dir
 /home/vagrant/algorithm/subgraph_match_challenge/build/main/CMakeFiles/program.dir
-/home/vagrant/algorithm/subgraph_match_challenge/build/backtrack_tutorial/CMakeFiles/rebuild_cache.dir
-/home/vagrant/algorithm/subgraph_match_challenge/build/backtrack_tutorial/CMakeFiles/edit_cache.dir
-/home/vagrant/algorithm/subgraph_match_challenge/build/backtrack_tutorial/CMakeFiles/backtrack_program.dir

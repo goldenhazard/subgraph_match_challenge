@@ -1,0 +1,148 @@
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_n1.igraph|../candidate_set/lcc_hprd_n1.cs
+[Loading complete]
+t 50
+Embedding #: 96 Recursion_call #:227
+Time Elapsed: 146[ms]
+=======================================
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_n3.igraph|../candidate_set/lcc_hprd_n3.cs
+[Loading complete]
+t 100
+Embedding #: 100000 Recursion_call #:104773
+Time Elapsed: 45764[ms]
+=======================================
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_n5.igraph|../candidate_set/lcc_hprd_n5.cs
+[Loading complete]
+t 150
+Embedding #: 32832 Recursion_call #:35583
+Time Elapsed: 21726[ms]
+=======================================
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_n8.igraph|../candidate_set/lcc_hprd_n8.cs
+[Loading complete]
+t 200
+Embedding #: 100000 Recursion_call #:106554
+Time Elapsed: 81901[ms]
+=======================================
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_s1.igraph|../candidate_set/lcc_hprd_s1.cs
+[Loading complete]
+t 50
+Embedding #: 504 Recursion_call #:872
+Time Elapsed: 273[ms]
+=======================================
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_s3.igraph|../candidate_set/lcc_hprd_s3.cs
+[Loading complete]
+t 100
+Embedding #: 100000 Recursion_call #:104516
+Time Elapsed: 38093[ms]
+=======================================
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_s5.igraph|../candidate_set/lcc_hprd_s5.cs
+[Loading complete]
+t 150
+Embedding #: 100000 Recursion_call #:115548
+Time Elapsed: 71216[ms]
+=======================================
+Loading ../data/lcc_hprd.igraph|../query/lcc_hprd_s8.igraph|../candidate_set/lcc_hprd_s8.cs
+[Loading complete]
+t 200
+Embedding #: 100000 Recursion_call #:106961
+Time Elapsed: 93368[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_n1.igraph|../candidate_set/lcc_human_n1.cs
+[Loading complete]
+t 10
+Embedding #: 100000 Recursion_call #:101703
+Time Elapsed: 14552[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_n3.igraph|../candidate_set/lcc_human_n3.cs
+[Loading complete]
+t 20
+Embedding #: 100000 Recursion_call #:538917
+Time Elapsed: 820400[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_n5.igraph|../candidate_set/lcc_human_n5.cs
+[Loading complete]
+t 30
+Embedding #: 100000 Recursion_call #:102423
+Time Elapsed: 23011[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_n8.igraph|../candidate_set/lcc_human_n8.cs
+[Loading complete]
+t 40
+Embedding #: 100000 Recursion_call #:103149
+Time Elapsed: 40383[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_s1.igraph|../candidate_set/lcc_human_s1.cs
+[Loading complete]
+t 10
+Embedding #: 100000 Recursion_call #:102426
+Time Elapsed: 13350[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_s3.igraph|../candidate_set/lcc_human_s3.cs
+[Loading complete]
+t 20
+Embedding #: 100000 Recursion_call #:133786
+Time Elapsed: 38786[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_s5.igraph|../candidate_set/lcc_human_s5.cs
+[Loading complete]
+t 30
+Embedding #: 100000 Recursion_call #:102433
+Time Elapsed: 19484[ms]
+=======================================
+Loading ../data/lcc_human.igraph|../query/lcc_human_s8.igraph|../candidate_set/lcc_human_s8.cs
+[Loading complete]
+t 40
+Embedding #: 100000 Recursion_call #:103194
+Time Elapsed: 33542[ms]
+=======================================
+Loading ../data/lcc_yeast.igraph|../query/lcc_yeast_n1.igraph|../candidate_set/lcc_yeast_n1.cs
+[Loading complete]
+t 50
+Embedding #: 100000 Recursion_call #:111165
+Time Elapsed: 23707[ms]
+=======================================
+Loading ../data/lcc_yeast.igraph|../query/lcc_yeast_n3.igraph|../candidate_set/lcc_yeast_n3.cs
+[Loading complete]
+t 100
+Embedding #: 100000 Recursion_call #:107829
+Time Elapsed: 42401[ms]
+=======================================
+Loading ../data/lcc_yeast.igraph|../query/lcc_yeast_n5.igraph|../candidate_set/lcc_yeast_n5.cs
+[Loading complete]
+t 150
+Embedding #: 100000 Recursion_call #:119056
+Time Elapsed: 80301[ms]
+=======================================
+Loading ../data/lcc_yeast.igraph|../query/lcc_yeast_n8.igraph|../candidate_set/lcc_yeast_n8.cs
+[Loading complete]
+t 200
+Embedding #: 100000 Recursion_call #:104982
+Time Elapsed: 111231[ms]
+=======================================
+Loading ../data/lcc_yeast.igraph|../query/lcc_yeast_s1.igraph|../candidate_set/lcc_yeast_s1.cs
+[Loading complete]
+t 50
+Embedding #: 100000 Recursion_call #:123577
+Time Elapsed: 37891[ms]
+=======================================
+Loading ../data/lcc_yeast.igraph|../query/lcc_yeast_s3.igraph|../candidate_set/lcc_yeast_s3.cs
+[Loading complete]
+t 100
+Embedding #: 100000 Recursion_call #:272251
+Time Elapsed: 1529907[ms]
+=======================================
+Loading ../data/lcc_yeast.igraph|../query/lcc_yeast_s5.igraph|../candidate_set/lcc_yeast_s5.cs
+[Loading complete]
+t 150
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Embedding #: 0 Recursion_call #:2000037
+Time Elapsed: 4960398[ms]
+=======================================
+Loading ../data/lcc_yeast.igraph|../query/lcc_yeast_s8.igraph|../candidate_set/lcc_yeast_s8.cs
+[Loading complete]
+t 200
+Recursion_call: 1000000 Embedding_number: 0
+Recursion_call: 2000000 Embedding_number: 0
+Embedding #: 0 Recursion_call #:2000297
+Time Elapsed: 5393680[ms]
+=======================================

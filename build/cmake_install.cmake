@@ -40,7 +40,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/vagrant/algorithm/subgraph_match_challenge/build/main/cmake_install.cmake")
-  include("/home/vagrant/algorithm/subgraph_match_challenge/build/backtrack_tutorial/cmake_install.cmake")
 
 endif()
 
