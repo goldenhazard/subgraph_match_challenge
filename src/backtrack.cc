@@ -63,8 +63,13 @@ void Backtrack::RootAnalysis(const Graph& data, const Graph& query, const Candid
 
 void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const CandidateSet& cs, 
                             std::vector<VertexPair>& partial_embedding){
+<<<<<<< HEAD
     PrintEmbedding(partial_embedding);
     printExtendable();
+=======
+    //if(recursion_call % 10000 == 0) PrintEmbedding(partial_embedding);
+    //printExtendable();
+>>>>>>> 008a58a4124989747bb5eb5175fd642830c6625d
     recursion_call += 1;
     if(recursion_call % 1000000 == 0) std::cout << "Recursion_call: " << recursion_call  << " Embedding_number: " << embedding_number << std::endl;
     if(embedding_number >= 100000) return;
@@ -73,12 +78,17 @@ void Backtrack::DoBacktrack(const Graph& data, const Graph& query, const Candida
     if(partial_embedding.size() == query.GetNumVertices()){
         //Check(data, query, cs, partial_embedding);
         embedding_number += 1;
+<<<<<<< HEAD
         //PrintPath(partial_embedding);
+=======
+        PrintPath(partial_embedding);
+>>>>>>> 008a58a4124989747bb5eb5175fd642830c6625d
         return;
     }
 
     else if(partial_embedding.empty()){
         Vertex root = FindRoot(query, cs);
+        // root = 0;
         //RootAnalysis(data, query, cs, root);
         for(size_t idx = 0; idx < cs.GetCandidateSize(root); idx++){
             Vertex v_next = cs.GetCandidate(root, idx);
@@ -214,6 +224,7 @@ Vertex Backtrack::FindRoot(const Graph& query, const CandidateSet& cs) {
 Vertex Backtrack::FindNextVertex(size_t level) {
     Vertex returnVertex = NOT_FIND;
     double min_metric = NOT_FIND;
+    // double max_branch_metric = -1;
 
     for(int u=0;u<query_size;u++) {
         if(extendable_u[level][u]) {
@@ -242,7 +253,7 @@ double Backtrack::BranchFactor(size_t level, Vertex u, double ratio){
         num++;
         branch_prob += frequency[v_cand];
     }
-    return (double)branch_prob/num;
+    return (double)branch_prob/num * ratio;
 }
 
 

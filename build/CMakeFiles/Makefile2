@@ -54,39 +54,18 @@ CMAKE_BINARY_DIR = /home/vagrant/algorithm/subgraph_match_challenge/build
 
 # The main recursive "all" target.
 all: main/all
-all: backtrack_tutorial/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: main/preinstall
-preinstall: backtrack_tutorial/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: main/clean
-clean: backtrack_tutorial/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory backtrack_tutorial
-
-# Recursive "all" directory target.
-backtrack_tutorial/all: backtrack_tutorial/CMakeFiles/backtrack_program.dir/all
-
-.PHONY : backtrack_tutorial/all
-
-# Recursive "preinstall" directory target.
-backtrack_tutorial/preinstall:
-
-.PHONY : backtrack_tutorial/preinstall
-
-# Recursive "clean" directory target.
-backtrack_tutorial/clean: backtrack_tutorial/CMakeFiles/backtrack_program.dir/clean
-
-.PHONY : backtrack_tutorial/clean
 
 #=============================================================================
 # Directory level rules for directory main
@@ -113,7 +92,7 @@ main/clean: main/CMakeFiles/program.dir/clean
 main/CMakeFiles/program.dir/all:
 	$(MAKE) -f main/CMakeFiles/program.dir/build.make main/CMakeFiles/program.dir/depend
 	$(MAKE) -f main/CMakeFiles/program.dir/build.make main/CMakeFiles/program.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vagrant/algorithm/subgraph_match_challenge/build/CMakeFiles --progress-num=6,7,8,9,10 "Built target program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vagrant/algorithm/subgraph_match_challenge/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target program"
 .PHONY : main/CMakeFiles/program.dir/all
 
 # Build rule for subdir invocation for target.
@@ -132,33 +111,6 @@ program: main/CMakeFiles/program.dir/rule
 main/CMakeFiles/program.dir/clean:
 	$(MAKE) -f main/CMakeFiles/program.dir/build.make main/CMakeFiles/program.dir/clean
 .PHONY : main/CMakeFiles/program.dir/clean
-
-#=============================================================================
-# Target rules for target backtrack_tutorial/CMakeFiles/backtrack_program.dir
-
-# All Build rule for target.
-backtrack_tutorial/CMakeFiles/backtrack_program.dir/all:
-	$(MAKE) -f backtrack_tutorial/CMakeFiles/backtrack_program.dir/build.make backtrack_tutorial/CMakeFiles/backtrack_program.dir/depend
-	$(MAKE) -f backtrack_tutorial/CMakeFiles/backtrack_program.dir/build.make backtrack_tutorial/CMakeFiles/backtrack_program.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vagrant/algorithm/subgraph_match_challenge/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target backtrack_program"
-.PHONY : backtrack_tutorial/CMakeFiles/backtrack_program.dir/all
-
-# Build rule for subdir invocation for target.
-backtrack_tutorial/CMakeFiles/backtrack_program.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/algorithm/subgraph_match_challenge/build/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 backtrack_tutorial/CMakeFiles/backtrack_program.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/algorithm/subgraph_match_challenge/build/CMakeFiles 0
-.PHONY : backtrack_tutorial/CMakeFiles/backtrack_program.dir/rule
-
-# Convenience name for target.
-backtrack_program: backtrack_tutorial/CMakeFiles/backtrack_program.dir/rule
-
-.PHONY : backtrack_program
-
-# clean rule for target.
-backtrack_tutorial/CMakeFiles/backtrack_program.dir/clean:
-	$(MAKE) -f backtrack_tutorial/CMakeFiles/backtrack_program.dir/build.make backtrack_tutorial/CMakeFiles/backtrack_program.dir/clean
-.PHONY : backtrack_tutorial/CMakeFiles/backtrack_program.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

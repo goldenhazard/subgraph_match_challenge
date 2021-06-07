@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "../backtrack_tutorial/CMakeLists.txt"
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
@@ -44,11 +43,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "main/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "backtrack_tutorial/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "main/CMakeFiles/program.dir/DependInfo.cmake"
-  "backtrack_tutorial/CMakeFiles/backtrack_program.dir/DependInfo.cmake"
   )
